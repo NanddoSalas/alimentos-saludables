@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# when using the default proxy server port
+local_backend: true
+
+media_folder: content/img
+public_folder: /img
+
+collections:
+  - name: 'category'
+    identifier_field: 'name'
+    label: 'Categories'
+    label_singular: 'Category'
+    folder: 'content/categories'
+    create: true
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { label: 'Category Name', name: 'name', widget: 'string' }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
+    editor:
+      preview: false
+
+  - name: 'monograph'
+    label: 'Monographs'
+    label_singular: 'Monograph'
+    folder: 'content/monographs'
+    create: true
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - { label: 'Monograph Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Category',
+          name: 'category',
+          widget: 'relation',
+          collection: 'category',
+          value_field: 'name',
+          search_fields: ['name'],
+          display_fields: ['name'],
+        }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
+      - {
+          label: 'Gallery',
+          name: 'gallery',
+          widget: 'list',
+          field: { label: 'Image', name: 'image', widget: 'image' },
+        }
+      - { label: 'Creation Date', name: 'createdAt', widget: 'datetime' }
+      - { label: 'Last Update', name: 'updatedAt', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

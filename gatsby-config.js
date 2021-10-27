@@ -28,5 +28,12 @@ module.exports = {
       __key: 'pages',
     },
     '@chakra-ui/gatsby-plugin',
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: './content/',
+      },
+    },
   ],
 };
