@@ -3717,3 +3717,8 @@ export type ImageSharpSortInput = {
   fields?: Maybe<Array<Maybe<ImageSharpFieldsEnum>>>;
   order?: Maybe<Array<Maybe<SortOrderEnum>>>;
 };
+
+export type CategoriesNameQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type CategoriesNameQuery = { allMarkdownRemark: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'name'>> }> } };
