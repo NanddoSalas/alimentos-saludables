@@ -25,7 +25,7 @@ const Categories = () => {
     }
   `);
 
-  const nodes = data.allMarkdownRemark.nodes;
+  const { nodes } = data.allMarkdownRemark;
 
   if (nodes.length === 0) return null;
 
@@ -56,9 +56,9 @@ const Categories = () => {
       >
         {nodes.map(({ frontmatter }) => (
           <Card
-            title={frontmatter.name}
-            href={`/${slugify(frontmatter.name, { lower: true })}`}
-            image={frontmatter.thumbnail.childImageSharp.gatsbyImageData}
+            title={frontmatter!.name!}
+            href={`/${slugify(frontmatter!.name!, { lower: true })}`}
+            image={frontmatter!.thumbnail!.childImageSharp!.gatsbyImageData}
           />
         ))}
       </Grid>

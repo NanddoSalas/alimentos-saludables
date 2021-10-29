@@ -84,7 +84,7 @@ const Header = () => {
   `);
 
   const categories = data.allMarkdownRemark.nodes.map(
-    ({ frontmatter }) => frontmatter.name,
+    ({ frontmatter }) => frontmatter!.name,
   );
 
   return (
@@ -159,7 +159,7 @@ const Header = () => {
               >
                 <Stack>
                   {categories.map((name) => (
-                    <SubNav label={name} />
+                    <SubNav label={name!} />
                   ))}
                 </Stack>
               </PopoverContent>
@@ -208,7 +208,7 @@ const Header = () => {
                   align="start"
                 >
                   {categories.map((name) => (
-                    <SubNav label={name} />
+                    <SubNav label={name!} />
                   ))}
                 </Stack>
               </Collapse>

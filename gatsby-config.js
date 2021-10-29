@@ -37,6 +37,6 @@ module.exports = {
         path: './content/',
       },
     },
-    `gatsby-plugin-graphql-codegen`,
+    'gatsby-plugin-graphql-codegen',
   ],
 };
