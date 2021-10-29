@@ -1,3 +1,5 @@
+require('ts-node').register();
+
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.yourdomain.tld',
