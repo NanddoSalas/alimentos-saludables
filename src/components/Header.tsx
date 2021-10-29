@@ -27,43 +27,41 @@ import React from 'react';
 import slugify from 'slugify';
 import { CategoriesNameQuery } from '../../graphql-types';
 
-const SubNav = ({ label }: { label: string }) => {
-  return (
-    <Link
-      w="100%"
-      role={'group'}
-      display={'block'}
-      p={2}
-      rounded={'md'}
-      _hover={{ bg: 'green.50' }}
-      as={GatsbyLink}
-      to={`/${slugify(label, { lower: true })}`}
-    >
-      <Stack direction={'row'} align={'center'}>
-        <Box>
-          <Text
-            transition={'all .3s ease'}
-            _groupHover={{ color: 'green.400' }}
-            fontWeight={500}
-          >
-            {label}
-          </Text>
-        </Box>
-        <Flex
-          transition={'all .3s ease'}
-          transform={'translateX(-10px)'}
-          opacity={0}
-          _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
-          justify={'flex-end'}
-          align={'center'}
-          flex={1}
+const SubNav = ({ label }: { label: string }) => (
+  <Link
+    w="100%"
+    role="group"
+    display="block"
+    p={2}
+    rounded="md"
+    _hover={{ bg: 'green.50' }}
+    as={GatsbyLink}
+    to={`/${slugify(label, { lower: true })}`}
+  >
+    <Stack direction="row" align="center">
+      <Box>
+        <Text
+          transition="all .3s ease"
+          _groupHover={{ color: 'green.400' }}
+          fontWeight={500}
         >
-          <Icon color={'green.400'} w={5} h={5} as={ChevronRightIcon} />
-        </Flex>
-      </Stack>
-    </Link>
-  );
-};
+          {label}
+        </Text>
+      </Box>
+      <Flex
+        transition="all .3s ease"
+        transform="translateX(-10px)"
+        opacity={0}
+        _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
+        justify="flex-end"
+        align="center"
+        flex={1}
+      >
+        <Icon color="green.400" w={5} h={5} as={ChevronRightIcon} />
+      </Flex>
+    </Stack>
+  </Link>
+);
 
 const Header = () => {
   const { isOpen, onToggle } = useDisclosure();
@@ -106,7 +104,7 @@ const Header = () => {
             d={{ base: 'flex', md: 'none' }}
           />
 
-          <Text fontFamily={'heading'} color="gray.800">
+          <Text fontFamily="heading" color="gray.800">
             Logo
           </Text>
 
@@ -159,7 +157,7 @@ const Header = () => {
               >
                 <Stack>
                   {categories.map((name) => (
-                    <SubNav label={name!} />
+                    <SubNav key={name} label={name!} />
                   ))}
                 </Stack>
               </PopoverContent>
@@ -176,18 +174,18 @@ const Header = () => {
             <Stack spacing={4} onClick={onToggleMobile}>
               <Flex
                 p={2}
-                rounded={'md'}
+                rounded="md"
                 justify="space-between"
                 align="center"
                 _hover={{ bg: 'green.50' }}
               >
-                <Text fontWeight={600} color={'gray.600'}>
+                <Text fontWeight={600} color="gray.600">
                   Categorias
                 </Text>
 
                 <Icon
                   as={ChevronDownIcon}
-                  transition={'all .25s ease-in-out'}
+                  transition="all .25s ease-in-out"
                   transform={isOpenMobile ? 'rotate(180deg)' : ''}
                   w={6}
                   h={6}
@@ -208,7 +206,7 @@ const Header = () => {
                   align="start"
                 >
                   {categories.map((name) => (
-                    <SubNav label={name!} />
+                    <SubNav key={name!} label={name!} />
                   ))}
                 </Stack>
               </Collapse>
