@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { GatsbyImage, IGatsbyImageData } from 'gatsby-plugin-image';
 import React from 'react';
 
-interface CardProps {
+export interface CardProps {
   title: string;
   href: string;
   image: IGatsbyImageData;

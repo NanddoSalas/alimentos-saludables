@@ -1,9 +1,10 @@
-import { Container, Grid, Heading } from '@chakra-ui/react';
+import { Container, Heading } from '@chakra-ui/react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import slugify from 'slugify';
 import { CategoriesQuery } from '../../graphql-types';
-import Card from './Card';
+import { CardProps } from './Card';
+import CardGrid from './CardGrid';
 
 const Categories = () => {
   const data = useStaticQuery<CategoriesQuery>(graphql`
@@ -25,9 +26,13 @@ const Categories = () => {
     }
   `);
 
-  const { nodes } = data.allMarkdownRemark;
-
-  if (nodes.length === 0) return null;
+  const cards = data.allMarkdownRemark.nodes.map<CardProps>(
+    ({ frontmatter }) => ({
+      title: frontmatter?.name!,
+      href: `/${slugify(frontmatter!.name!, { lower: true })}`,
+      image: frontmatter?.thumbnail?.childImageSharp?.gatsbyImageData,
+    }),
+  );
 
   return (
     <Container
@@ -45,23 +50,7 @@ const Categories = () => {
         Categorias
       </Heading>
 
-      <Grid
-        templateColumns={{
-          base: '1fr',
-          sm: 'repeat(2, 1fr)',
-          md: 'repeat(3, 1fr)',
-        }}
-        gap={{ base: 4, sm: 8, md: 4, lg: 8 }}
-        px={{ base: 4, sm: 8, md: 4 }}
-      >
-        {nodes.map(({ frontmatter }) => (
-          <Card
-            title={frontmatter!.name!}
-            href={`/${slugify(frontmatter!.name!, { lower: true })}`}
-            image={frontmatter!.thumbnail!.childImageSharp!.gatsbyImageData}
-          />
-        ))}
-      </Grid>
+      <CardGrid cards={cards} />
     </Container>
   );
 };
