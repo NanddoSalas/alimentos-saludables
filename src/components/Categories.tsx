@@ -1,8 +1,8 @@
 import { Container, Heading } from '@chakra-ui/react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import slugify from 'slugify';
 import { CategoriesQuery } from '../../graphql-types';
+import { createPath } from '../utils';
 import { CardProps } from './Card';
 import CardGrid from './CardGrid';
 
@@ -29,7 +29,7 @@ const Categories = () => {
   const cards = data.allMarkdownRemark.nodes.map<CardProps>(
     ({ frontmatter }) => ({
       title: frontmatter?.name!,
-      href: `/${slugify(frontmatter!.name!, { lower: true })}`,
+      href: createPath([frontmatter?.name!]),
       image: frontmatter?.thumbnail?.childImageSharp?.gatsbyImageData,
     }),
   );

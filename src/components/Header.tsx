@@ -24,8 +24,8 @@ import {
 } from '@chakra-ui/react';
 import { graphql, Link as GatsbyLink, useStaticQuery } from 'gatsby';
 import React from 'react';
-import slugify from 'slugify';
 import { CategoriesNameQuery } from '../../graphql-types';
+import { createPath } from '../utils';
 
 const SubNav = ({ label }: { label: string }) => (
   <Link
@@ -36,7 +36,7 @@ const SubNav = ({ label }: { label: string }) => (
     rounded="md"
     _hover={{ bg: 'green.50' }}
     as={GatsbyLink}
-    to={`/${slugify(label, { lower: true })}`}
+    to={createPath([label])}
   >
     <Stack direction="row" align="center">
       <Box>
