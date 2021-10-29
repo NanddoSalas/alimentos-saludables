@@ -88,9 +88,14 @@ const Header = () => {
   );
 
   return (
-    <Box borderBottom={1} borderStyle="solid" borderColor="gray.200">
-      <Container maxW="container.lg" p={0}>
-        <Flex justifyContent="space-between" alignItems="center" m="10px">
+    <Box
+      shadow="base"
+      borderBottom={1}
+      borderStyle="solid"
+      borderColor="gray.200"
+    >
+      <Container maxW="container.lg" py="10px">
+        <Flex justifyContent="space-between" alignItems="center">
           <IconButton
             onClick={onToggle}
             icon={
