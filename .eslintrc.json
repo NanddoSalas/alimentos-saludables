@@ -4,6 +4,7 @@
     "project": "tsconfig.json"
   },
   "rules": {
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "operator-linebreak": "off"
   }
 }
