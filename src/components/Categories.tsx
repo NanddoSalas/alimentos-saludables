@@ -1,4 +1,4 @@
-import { Container, Heading } from '@chakra-ui/react';
+import { Box, Container, Heading } from '@chakra-ui/react';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { CategoriesQuery } from '../../graphql-types';
@@ -35,23 +35,26 @@ const Categories = () => {
   );
 
   return (
-    <Container
-      maxW="container.lg"
-      px={0}
-      id="categorias"
-      py={{ base: 8, sm: 16, md: 24 }}
-    >
-      <Heading
-        mb={{ base: 8, sm: 16, md: 24 }}
-        fontWeight={500}
-        fontSize={{ base: '3xl', sm: '4xl', lg: '5xl' }}
-        textAlign="center"
+    <Box bg="gray.800">
+      <Container
+        maxW="container.lg"
+        px={0}
+        id="categorias"
+        py={{ base: 8, sm: 16, md: 24 }}
       >
-        Categorias
-      </Heading>
+        <Heading
+          mb={{ base: 8, sm: 16, md: 24 }}
+          fontWeight={500}
+          fontSize={{ base: '3xl', sm: '4xl', lg: '5xl' }}
+          textAlign="center"
+          color="whiteAlpha.900"
+        >
+          Categorias
+        </Heading>
 
-      <CardGrid cards={cards} />
-    </Container>
+        <CardGrid cards={cards} />
+      </Container>
+    </Box>
   );
 };
 

@@ -12,7 +12,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
 const Hero = () => (
-  <Flex minH="calc(100vh - 61px)" alignItems="center" bg="gray.100">
+  <Flex minH="calc(100vh - 61px)" alignItems="center" bg="gray.800">
     <Container maxW="container.lg" p={{ base: 4, sm: 8, md: 4 }}>
       <Stack
         align="center"
@@ -27,7 +27,7 @@ const Hero = () => (
             fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
             textAlign={{ base: 'center', md: 'left' }}
           >
-            <Text as="span" position="relative">
+            <Text as="span" position="relative" color="whiteAlpha.900">
               Mas de 150 Monografias
             </Text>
 
@@ -60,12 +60,11 @@ const Hero = () => (
             </Button>
 
             <Button
+              color="gray.300"
               rightIcon={<ArrowForwardIcon />}
               rounded="full"
               size="lg"
-              colorScheme="green"
-              variant="outline"
-              _hover={{ bg: 'gray.200' }}
+              fontWeight="normal"
             >
               Aleatorio
             </Button>

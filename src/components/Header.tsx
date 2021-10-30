@@ -34,7 +34,8 @@ const SubNav = ({ label }: { label: string }) => (
     display="block"
     p={2}
     rounded="md"
-    _hover={{ bg: 'green.50' }}
+    color="gray.200"
+    _hover={{ bg: 'gray.800' }}
     as={GatsbyLink}
     to={createPath([label])}
   >
@@ -87,10 +88,11 @@ const Header = () => {
 
   return (
     <Box
+      bg="gray.900"
       shadow="base"
       borderBottom={1}
       borderStyle="solid"
-      borderColor="gray.200"
+      borderColor="gray.900"
     >
       <Container maxW="container.lg" py="10px">
         <Flex justifyContent="space-between" alignItems="center">
@@ -104,7 +106,7 @@ const Header = () => {
             d={{ base: 'flex', md: 'none' }}
           />
 
-          <Text fontFamily="heading" color="gray.800">
+          <Text fontFamily="heading" color="white">
             Logo
           </Text>
 
@@ -116,14 +118,14 @@ const Header = () => {
             d={{ base: 'flex', md: 'none' }}
           />
 
-          <HStack spacing={12} d={{ base: 'none', md: 'flex' }}>
+          <HStack spacing={16} d={{ base: 'none', md: 'flex' }}>
             <Link
               fontSize="md"
               fontWeight={600}
-              color="gray.600"
+              color="gray.200"
               _hover={{
                 textDecoration: 'none',
-                color: 'gray.800',
+                color: 'white',
               }}
               as={GatsbyLink}
               to="/"
@@ -136,10 +138,10 @@ const Header = () => {
                 <Link
                   fontSize="md"
                   fontWeight={600}
-                  color="gray.600"
+                  color="gray.200"
                   _hover={{
                     textDecoration: 'none',
-                    color: 'gray.800',
+                    color: 'white',
                   }}
                   as={GatsbyLink}
                   to="/#categorias"
@@ -154,6 +156,7 @@ const Header = () => {
                 p={4}
                 rounded="xl"
                 minW="2xs"
+                bg="gray.900"
               >
                 <Stack>
                   {categories.map((name) => (
@@ -163,7 +166,9 @@ const Header = () => {
               </PopoverContent>
             </Popover>
 
-            <Button leftIcon={<SearchIcon />}>Buscar</Button>
+            <Button color="gray.300" leftIcon={<SearchIcon />}>
+              Buscar
+            </Button>
           </HStack>
         </Flex>
 
@@ -177,11 +182,10 @@ const Header = () => {
                 rounded="md"
                 justify="space-between"
                 align="center"
-                _hover={{ bg: 'green.50' }}
+                color="gray.200"
+                _hover={{ bg: 'gray.900', color: 'green.400' }}
               >
-                <Text fontWeight={600} color="gray.600">
-                  Categorias
-                </Text>
+                <Text fontWeight={600}>Categorias</Text>
 
                 <Icon
                   as={ChevronDownIcon}
@@ -202,7 +206,7 @@ const Header = () => {
                   pl={4}
                   borderLeft={1}
                   borderStyle="solid"
-                  borderColor="gray.200"
+                  borderColor="gray.700"
                   align="start"
                 >
                   {categories.map((name) => (

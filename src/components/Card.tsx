@@ -30,9 +30,14 @@ const Card: React.FC<CardProps> = ({ title, href, image }) => (
         w="100%"
         pt={8}
         pb={4}
-        bg="linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%)"
+        bg="linear-gradient(0deg, rgba(0,0,0,1) -10%, rgba(255,255,255,0) 110%)"
       >
-        <Text color="white" fontSize="lg" fontWeight="600" textAlign="center">
+        <Text
+          color="whiteAlpha.900"
+          fontSize="lg"
+          fontWeight="600"
+          textAlign="center"
+        >
           {title}
         </Text>
       </Box>
