@@ -3793,3 +3793,8 @@ export type MonographQuery = { markdownRemark?: Maybe<(
       & { gallery?: Maybe<Array<Maybe<{ childImageSharp?: Maybe<Pick<ImageSharp, 'gatsbyImageData'>> }>>>, nutritionFacts?: Maybe<Array<Maybe<Pick<MarkdownRemarkFrontmatterNutritionFacts, 'name' | 'value' | 'unit'>>>> }
     )> }
   )> };
+
+export type CreatePagesQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type CreatePagesQuery = { categories: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'name'>> }> }, monographs: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'title' | 'category'>> }> } };
