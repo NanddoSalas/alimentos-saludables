@@ -90,7 +90,10 @@ const Footer = () => (
             <FaYoutube />
           </SocialButton>
 
-          <SocialButton label="GitHub" href="#">
+          <SocialButton
+            label="GitHub"
+            href="https://github.com/NanddoSalas/alimentosaludables"
+          >
             <FaGithub />
           </SocialButton>
         </Stack>
