@@ -24,6 +24,18 @@ collections:
     editor:
       preview: false
 
+  - name: 'nutritionalFacts'
+    identifier_field: 'key'
+    label: 'Nutritional Facts'
+    label_singular: 'Nutritional Fact'
+    folder: 'content/nutritionalFacts'
+    create: true
+    path: '{{slug}}/index'
+    fields:
+      - { label: 'Key', name: 'key', widget: 'string' }
+    editor:
+      preview: false
+
   - name: 'monograph'
     label: 'Monographs'
     label_singular: 'Monograph'
@@ -46,6 +58,7 @@ collections:
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
       - {
           label: 'Gallery',
+          label_singular: 'Image',
           name: 'gallery',
           widget: 'list',
           field: { label: 'Image', name: 'image', widget: 'image' },
@@ -53,3 +66,22 @@ collections:
       - { label: 'Creation Date', name: 'createdAt', widget: 'datetime' }
       - { label: 'Last Update', name: 'updatedAt', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: 'Nutrition Facts'
+        label_singular: 'Nutrition Fact'
+        name: 'nutritionFacts'
+        widget: 'list'
+        fields:
+          - label: 'Name'
+            name: 'name'
+            widget: 'relation'
+            collection: 'nutritionalFacts'
+            value_field: 'key'
+            search_fields: ['key']
+            display_fields: ['key']
+          - label: 'Value'
+            name: 'value'
+            widget: 'string'
+          - label: 'Unit'
+            name: 'unit'
+            widget: 'select'
+            options: ['g', 'mg', 'µg', 'kcal', '%']
