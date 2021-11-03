@@ -3,6 +3,7 @@
   "parserOptions": {
     "project": "tsconfig.json"
   },
+  "ignorePatterns": "gatsby-config.js",
   "rules": {
     "object-curly-newline": "off",
     "operator-linebreak": "off"

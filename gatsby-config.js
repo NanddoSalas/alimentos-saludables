@@ -1,51 +1,7 @@
+// We register the TypeScript evaluator in gatsby-config so we don't need to do
+// it in any other .js file. It automatically reads TypeScript config from
+// tsconfig.json.
 require('ts-node').register();
 
-module.exports = {
-  siteMetadata: {
-    siteUrl: 'https://www.yourdomain.tld',
-    title: 'Los AlimentoSaludables',
-  },
-  plugins: [
-    'gatsby-plugin-netlify-cms',
-    'gatsby-plugin-image',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sitemap',
-    'gatsby-transformer-remark',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'images',
-        path: './src/images/',
-      },
-      __key: 'images',
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'pages',
-        path: './src/pages/',
-      },
-      __key: 'pages',
-    },
-    '@chakra-ui/gatsby-plugin',
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'content',
-        path: './content/',
-      },
-    },
-    {
-      resolve: `gatsby-plugin-graphql-codegen`,
-      options: {
-        documentPaths: [
-          './src/**/*.{ts,tsx}',
-          './node_modules/gatsby-*/**/*.js',
-          './gatsby-node.ts',
-        ],
-      },
-    },
-  ],
-};
+// Use a TypeScript version of gatsby-config.js.
+module.exports = require('./gatsby-config.ts');
