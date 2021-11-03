@@ -37,6 +37,7 @@ const Monograph: React.FC<PageProps<MonographQuery>> = ({ data }) => (
         <Box
           fontSize={{ base: 'lg', md: 'xl' }}
           fontWeight="400"
+          fontFamily="arial"
           px={16}
           mb={{ base: 8, sm: 16 }}
           color="gray.200"
