@@ -29,7 +29,12 @@ import { MonographIndex } from '../types';
 import { createPath } from '../utils';
 import SearchModal from './SearchModal';
 
-const SubNav = ({ label }: { label: string }) => (
+interface SubNavProps {
+  label: string;
+  href: string;
+}
+
+const SubNav: React.FC<SubNavProps> = ({ label, href }) => (
   <Link
     w="100%"
     role="group"
@@ -39,7 +44,7 @@ const SubNav = ({ label }: { label: string }) => (
     color="gray.200"
     _hover={{ bg: 'gray.800' }}
     as={GatsbyLink}
-    to={createPath([label])}
+    to={href}
   >
     <Stack direction="row" align="center">
       <Box>
@@ -211,7 +216,11 @@ const Header: React.FC<HeroProps> = ({ bottom }) => {
                 >
                   <Stack>
                     {categories.map((name) => (
-                      <SubNav key={name} label={name!} />
+                      <SubNav
+                        key={name}
+                        label={name!}
+                        href={createPath([name!])}
+                      />
                     ))}
                   </Stack>
                 </PopoverContent>
@@ -229,7 +238,7 @@ const Header: React.FC<HeroProps> = ({ bottom }) => {
 
           <Collapse in={isOpen} animateOpacity>
             <Stack p={4} display={{ md: 'none' }}>
-              <SubNav label="Inicio" />
+              <SubNav label="Inicio" href="/" />
 
               <Stack spacing={4} onClick={onToggleMobile}>
                 <Flex
@@ -265,7 +274,11 @@ const Header: React.FC<HeroProps> = ({ bottom }) => {
                     align="start"
                   >
                     {categories.map((name) => (
-                      <SubNav key={name!} label={name!} />
+                      <SubNav
+                        key={name!}
+                        label={name!}
+                        href={createPath([name!])}
+                      />
                     ))}
                   </Stack>
                 </Collapse>
