@@ -1,7 +1,6 @@
 import {
   Box,
   Container,
-  DarkMode,
   Flex,
   Heading,
   Table,
@@ -19,7 +18,7 @@ import Header from '../components/Header';
 import Slider from '../components/Slider';
 
 const Monograph: React.FC<PageProps<MonographQuery>> = ({ data }) => (
-  <DarkMode>
+  <>
     <Header />
 
     <Box bg="gray.800" minH="calc(100vh - 61px)">
@@ -126,7 +125,7 @@ const Monograph: React.FC<PageProps<MonographQuery>> = ({ data }) => (
     </Box>
 
     <Footer />
-  </DarkMode>
+  </>
 );
 
 export const query = graphql`
