@@ -11,14 +11,24 @@ import {
   Tr,
 } from '@chakra-ui/react';
 import { graphql, PageProps } from 'gatsby';
+import { getSrc } from 'gatsby-plugin-image';
+import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks';
 import React from 'react';
 import { MonographQuery } from '../../graphql-types';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import Seo from '../components/Seo';
 import Slider from '../components/Slider';
 
 const Monograph: React.FC<PageProps<MonographQuery>> = ({ data }) => (
   <>
+    <Seo
+      title={data.markdownRemark?.frontmatter?.title!}
+      description={data.markdownRemark?.excerpt!}
+      image={getSrc(data.markdownRemark?.frontmatter?.thumbnail as FileNode)}
+      article
+    />
+
     <Header />
 
     <Box bg="gray.800" minH="calc(100vh - 61px)">
@@ -138,6 +148,11 @@ export const query = graphql`
       frontmatter {
         title
         category
+        thumbnail {
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
         createdAt
         updatedAt
         gallery {
@@ -152,6 +167,7 @@ export const query = graphql`
         }
       }
       html
+      excerpt(format: PLAIN)
     }
   }
 `;

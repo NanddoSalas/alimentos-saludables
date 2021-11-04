@@ -277,7 +277,9 @@ export type SiteBuildTimeArgs = {
 export type SiteSiteMetadata = {
   title?: Maybe<Scalars['String']>;
   description?: Maybe<Scalars['String']>;
-  siteUrl?: Maybe<Scalars['String']>;
+  titleTemplate?: Maybe<Scalars['String']>;
+  url?: Maybe<Scalars['String']>;
+  image?: Maybe<Scalars['String']>;
 };
 
 export type SiteFunction = Node & {
@@ -2144,7 +2146,9 @@ export type DirectorySortInput = {
 export type SiteSiteMetadataFilterInput = {
   title?: Maybe<StringQueryOperatorInput>;
   description?: Maybe<StringQueryOperatorInput>;
-  siteUrl?: Maybe<StringQueryOperatorInput>;
+  titleTemplate?: Maybe<StringQueryOperatorInput>;
+  url?: Maybe<StringQueryOperatorInput>;
+  image?: Maybe<StringQueryOperatorInput>;
 };
 
 export type SiteConnection = {
@@ -2196,7 +2200,9 @@ export type SiteFieldsEnum =
   | 'buildTime'
   | 'siteMetadata___title'
   | 'siteMetadata___description'
-  | 'siteMetadata___siteUrl'
+  | 'siteMetadata___titleTemplate'
+  | 'siteMetadata___url'
+  | 'siteMetadata___image'
   | 'port'
   | 'host'
   | 'polyfill'
@@ -3771,6 +3777,11 @@ export type HeaderDataQueryVariables = Exact<{ [key: string]: never; }>;
 
 export type HeaderDataQuery = { categories: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'name'>> }> }, monographs: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'title' | 'category'>> }> } };
 
+export type SeoQueryVariables = Exact<{ [key: string]: never; }>;
+
+
+export type SeoQuery = { site?: Maybe<{ siteMetadata?: Maybe<Pick<SiteSiteMetadata, 'title' | 'titleTemplate' | 'description' | 'url' | 'image'>> }> };
+
 export type MonographiesPreviewQueryVariables = Exact<{
   name?: Maybe<Scalars['String']>;
 }>;
@@ -3787,10 +3798,10 @@ export type MonographQueryVariables = Exact<{
 
 
 export type MonographQuery = { markdownRemark?: Maybe<(
-    Pick<MarkdownRemark, 'html'>
+    Pick<MarkdownRemark, 'html' | 'excerpt'>
     & { frontmatter?: Maybe<(
       Pick<MarkdownRemarkFrontmatter, 'title' | 'category' | 'createdAt' | 'updatedAt'>
-      & { gallery?: Maybe<Array<Maybe<{ childImageSharp?: Maybe<Pick<ImageSharp, 'gatsbyImageData'>> }>>>, nutritionFacts?: Maybe<Array<Maybe<Pick<MarkdownRemarkFrontmatterNutritionFacts, 'name' | 'value' | 'unit'>>>> }
+      & { thumbnail?: Maybe<{ childImageSharp?: Maybe<Pick<ImageSharp, 'gatsbyImageData'>> }>, gallery?: Maybe<Array<Maybe<{ childImageSharp?: Maybe<Pick<ImageSharp, 'gatsbyImageData'>> }>>>, nutritionFacts?: Maybe<Array<Maybe<Pick<MarkdownRemarkFrontmatterNutritionFacts, 'name' | 'value' | 'unit'>>>> }
     )> }
   )> };
 
