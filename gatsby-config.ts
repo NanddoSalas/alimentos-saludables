@@ -1,6 +1,9 @@
 export const siteMetadata = {
-  siteUrl: 'https://www.yourdomain.tld',
-  title: 'Los AlimentoSaludables',
+  title: 'Alimentos Saludables',
+  titleTemplate: '%s · Alimentos Saludables',
+  description: 'Mas de 150 Monografias de Alimentos Saludables!',
+  url: 'https://losalimentosaludables.com',
+  image: '/hero.jpg',
 };
 
 export const plugins = [
