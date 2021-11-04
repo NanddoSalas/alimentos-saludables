@@ -22,10 +22,12 @@ import {
   Text,
   useDisclosure,
 } from '@chakra-ui/react';
-import { graphql, Link as GatsbyLink, useStaticQuery } from 'gatsby';
+import { graphql, Link as GatsbyLink, navigate, useStaticQuery } from 'gatsby';
 import React from 'react';
-import { CategoriesNameQuery } from '../../graphql-types';
+import { HeaderDataQuery } from '../../graphql-types';
+import { MonographIndex } from '../types';
 import { createPath } from '../utils';
+import SearchModal from './SearchModal';
 
 const SubNav = ({ label }: { label: string }) => (
   <Link
@@ -64,13 +66,26 @@ const SubNav = ({ label }: { label: string }) => (
   </Link>
 );
 
-const Header = () => {
+interface HeroProps {
+  // eslint-disable-next-line react/require-default-props
+  bottom?: (props: {
+    openSearch: () => void;
+    navigateRandom: () => void;
+  }) => React.ReactNode;
+}
+
+const Header: React.FC<HeroProps> = ({ bottom }) => {
   const { isOpen, onToggle } = useDisclosure();
   const { isOpen: isOpenMobile, onToggle: onToggleMobile } = useDisclosure();
+  const {
+    isOpen: isOpenSearch,
+    onOpen: onOpenSearch,
+    onClose: onCloseSearch,
+  } = useDisclosure();
 
-  const data = useStaticQuery<CategoriesNameQuery>(graphql`
-    query CategoriesName {
-      allMarkdownRemark(
+  const data = useStaticQuery<HeaderDataQuery>(graphql`
+    query HeaderData {
+      categories: allMarkdownRemark(
         filter: { fileAbsolutePath: { regex: "/categories/" } }
       ) {
         nodes {
@@ -79,146 +94,189 @@ const Header = () => {
           }
         }
       }
+      monographs: allMarkdownRemark(
+        filter: { fileAbsolutePath: { regex: "/monographs/" } }
+      ) {
+        nodes {
+          frontmatter {
+            title
+            category
+          }
+        }
+      }
     }
   `);
 
-  const categories = data.allMarkdownRemark.nodes.map(
+  const categories = data.categories.nodes.map(
     ({ frontmatter }) => frontmatter!.name,
   );
 
+  const monographsIndex: MonographIndex[] =
+    data.monographs.nodes.map<MonographIndex>((node) => ({
+      title: node.frontmatter?.title!,
+      category: node.frontmatter?.category!,
+      href: createPath([node.frontmatter?.category!, node.frontmatter?.title!]),
+    }));
+
+  const navigateRandom = () => {
+    const index = Math.floor(Math.random() * monographsIndex.length);
+
+    const item = monographsIndex[index];
+
+    navigate(item.href);
+  };
+
   return (
-    <Box
-      bg="gray.900"
-      shadow="base"
-      borderBottom={1}
-      borderStyle="solid"
-      borderColor="gray.900"
-    >
-      <Container maxW="container.lg" py="10px">
-        <Flex justifyContent="space-between" alignItems="center">
-          <IconButton
-            onClick={onToggle}
-            icon={
-              isOpen ? <CloseIcon w={3} h={3} /> : <HamburgerIcon w={5} h={5} />
-            }
-            variant="ghost"
-            aria-label="Toggle Navigation"
-            d={{ base: 'flex', md: 'none' }}
-          />
+    <>
+      <Box
+        bg="gray.900"
+        shadow="base"
+        borderBottom={1}
+        borderStyle="solid"
+        borderColor="gray.900"
+      >
+        <SearchModal
+          monographsIndex={monographsIndex}
+          isOpen={isOpenSearch}
+          onClose={onCloseSearch}
+        />
 
-          <Text fontFamily="heading" color="white">
-            Logo
-          </Text>
+        <Container maxW="container.lg" py="10px">
+          <Flex justifyContent="space-between" alignItems="center">
+            <IconButton
+              onClick={onToggle}
+              icon={
+                isOpen ? (
+                  <CloseIcon w={3} h={3} />
+                ) : (
+                  <HamburgerIcon w={5} h={5} />
+                )
+              }
+              variant="ghost"
+              aria-label="Toggle Navigation"
+              d={{ base: 'flex', md: 'none' }}
+            />
 
-          <IconButton
-            onClick={() => {}}
-            icon={<SearchIcon />}
-            variant="ghost"
-            aria-label="Open Search bar"
-            d={{ base: 'flex', md: 'none' }}
-          />
+            <Text fontFamily="heading" color="white">
+              Logo
+            </Text>
 
-          <HStack spacing={16} d={{ base: 'none', md: 'flex' }}>
-            <Link
-              fontSize="md"
-              fontWeight={600}
-              color="gray.200"
-              _hover={{
-                textDecoration: 'none',
-                color: 'white',
-              }}
-              as={GatsbyLink}
-              to="/"
-            >
-              Inicio
-            </Link>
+            <IconButton
+              onClick={onOpenSearch}
+              icon={<SearchIcon />}
+              variant="ghost"
+              aria-label="Open Search bar"
+              d={{ base: 'flex', md: 'none' }}
+            />
 
-            <Popover trigger="hover" placement="bottom">
-              <PopoverTrigger>
-                <Link
-                  fontSize="md"
-                  fontWeight={600}
-                  color="gray.200"
-                  _hover={{
-                    textDecoration: 'none',
-                    color: 'white',
-                  }}
-                  as={GatsbyLink}
-                  to="/#categorias"
-                >
-                  Categorias
-                </Link>
-              </PopoverTrigger>
-
-              <PopoverContent
-                border={0}
-                boxShadow="2xl"
-                p={4}
-                rounded="xl"
-                minW="2xs"
-                bg="gray.900"
-              >
-                <Stack>
-                  {categories.map((name) => (
-                    <SubNav key={name} label={name!} />
-                  ))}
-                </Stack>
-              </PopoverContent>
-            </Popover>
-
-            <Button color="gray.300" leftIcon={<SearchIcon />}>
-              Buscar
-            </Button>
-          </HStack>
-        </Flex>
-
-        <Collapse in={isOpen} animateOpacity>
-          <Stack p={4} display={{ md: 'none' }}>
-            <SubNav label="Inicio" />
-
-            <Stack spacing={4} onClick={onToggleMobile}>
-              <Flex
-                p={2}
-                rounded="md"
-                justify="space-between"
-                align="center"
+            <HStack spacing={16} d={{ base: 'none', md: 'flex' }}>
+              <Link
+                fontSize="md"
+                fontWeight={600}
                 color="gray.200"
-                _hover={{ bg: 'gray.900', color: 'green.400' }}
+                _hover={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+                as={GatsbyLink}
+                to="/"
               >
-                <Text fontWeight={600}>Categorias</Text>
+                Inicio
+              </Link>
 
-                <Icon
-                  as={ChevronDownIcon}
-                  transition="all .25s ease-in-out"
-                  transform={isOpenMobile ? 'rotate(180deg)' : ''}
-                  w={6}
-                  h={6}
-                />
-              </Flex>
+              <Popover trigger="hover" placement="bottom">
+                <PopoverTrigger>
+                  <Link
+                    fontSize="md"
+                    fontWeight={600}
+                    color="gray.200"
+                    _hover={{
+                      textDecoration: 'none',
+                      color: 'white',
+                    }}
+                    as={GatsbyLink}
+                    to="/#categorias"
+                  >
+                    Categorias
+                  </Link>
+                </PopoverTrigger>
 
-              <Collapse
-                in={isOpenMobile}
-                animateOpacity
-                style={{ marginTop: '0!important' }}
-              >
-                <Stack
-                  mt={2}
-                  pl={4}
-                  borderLeft={1}
-                  borderStyle="solid"
-                  borderColor="gray.700"
-                  align="start"
+                <PopoverContent
+                  border={0}
+                  boxShadow="2xl"
+                  p={4}
+                  rounded="xl"
+                  minW="2xs"
+                  bg="gray.900"
                 >
-                  {categories.map((name) => (
-                    <SubNav key={name!} label={name!} />
-                  ))}
-                </Stack>
-              </Collapse>
+                  <Stack>
+                    {categories.map((name) => (
+                      <SubNav key={name} label={name!} />
+                    ))}
+                  </Stack>
+                </PopoverContent>
+              </Popover>
+
+              <Button
+                color="gray.300"
+                leftIcon={<SearchIcon />}
+                onClick={onOpenSearch}
+              >
+                Buscar
+              </Button>
+            </HStack>
+          </Flex>
+
+          <Collapse in={isOpen} animateOpacity>
+            <Stack p={4} display={{ md: 'none' }}>
+              <SubNav label="Inicio" />
+
+              <Stack spacing={4} onClick={onToggleMobile}>
+                <Flex
+                  p={2}
+                  rounded="md"
+                  justify="space-between"
+                  align="center"
+                  color="gray.200"
+                  _hover={{ bg: 'gray.900', color: 'green.400' }}
+                >
+                  <Text fontWeight={600}>Categorias</Text>
+
+                  <Icon
+                    as={ChevronDownIcon}
+                    transition="all .25s ease-in-out"
+                    transform={isOpenMobile ? 'rotate(180deg)' : ''}
+                    w={6}
+                    h={6}
+                  />
+                </Flex>
+
+                <Collapse
+                  in={isOpenMobile}
+                  animateOpacity
+                  style={{ marginTop: '0!important' }}
+                >
+                  <Stack
+                    mt={2}
+                    pl={4}
+                    borderLeft={1}
+                    borderStyle="solid"
+                    borderColor="gray.700"
+                    align="start"
+                  >
+                    {categories.map((name) => (
+                      <SubNav key={name!} label={name!} />
+                    ))}
+                  </Stack>
+                </Collapse>
+              </Stack>
             </Stack>
-          </Stack>
-        </Collapse>
-      </Container>
-    </Box>
+          </Collapse>
+        </Container>
+      </Box>
+
+      {bottom && bottom({ openSearch: onOpenSearch, navigateRandom })}
+    </>
   );
 };
 

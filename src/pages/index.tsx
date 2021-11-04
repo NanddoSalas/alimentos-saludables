@@ -6,8 +6,11 @@ import Hero from '../components/Hero';
 
 const HomePage = () => (
   <>
-    <Header />
-    <Hero />
+    <Header
+      bottom={({ openSearch, navigateRandom }) => (
+        <Hero onClickSearch={openSearch} onClickRandom={navigateRandom} />
+      )}
+    />
     <Categories />
     <Footer />
   </>

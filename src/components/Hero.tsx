@@ -11,7 +11,12 @@ import {
 import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 
-const Hero = () => (
+interface HeroProps {
+  onClickSearch: () => void;
+  onClickRandom: () => void;
+}
+
+const Hero: React.FC<HeroProps> = ({ onClickSearch, onClickRandom }) => (
   <Flex minH="calc(100vh - 61px)" alignItems="center" bg="gray.800">
     <Container maxW="container.lg" p={{ base: 4, sm: 8, md: 4 }}>
       <Stack
@@ -55,6 +60,7 @@ const Hero = () => (
               colorScheme="green"
               bg="green.400"
               _hover={{ bg: 'green.500' }}
+              onClick={onClickSearch}
             >
               Buscar
             </Button>
@@ -65,6 +71,7 @@ const Hero = () => (
               rounded="full"
               size="lg"
               fontWeight="normal"
+              onClick={onClickRandom}
             >
               Aleatorio
             </Button>

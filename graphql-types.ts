@@ -3766,10 +3766,10 @@ export type CategoriesQuery = { allMarkdownRemark: { nodes: Array<{ frontmatter?
         & { thumbnail?: Maybe<{ childImageSharp?: Maybe<Pick<ImageSharp, 'gatsbyImageData'>> }> }
       )> }> } };
 
-export type CategoriesNameQueryVariables = Exact<{ [key: string]: never; }>;
+export type HeaderDataQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type CategoriesNameQuery = { allMarkdownRemark: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'name'>> }> } };
+export type HeaderDataQuery = { categories: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'name'>> }> }, monographs: { nodes: Array<{ frontmatter?: Maybe<Pick<MarkdownRemarkFrontmatter, 'title' | 'category'>> }> } };
 
 export type MonographiesPreviewQueryVariables = Exact<{
   name?: Maybe<Scalars['String']>;
