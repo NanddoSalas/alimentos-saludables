@@ -57,6 +57,8 @@ const RightArrow = () => {
 interface SliderItemProps {
   image: IGatsbyImageData;
   alt: string;
+  // eslint-disable-next-line react/no-unused-prop-types
+  itemId: number;
   onClick: () => void;
 }
 
@@ -105,6 +107,7 @@ const Slider: React.FC<SliderProps> = ({ images, imagesAlt }) => {
             key={index}
             image={image}
             alt={imagesAlt}
+            itemId={index}
             onClick={() => handleClick(index)}
           />
         ))}
