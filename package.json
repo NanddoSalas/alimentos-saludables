@@ -30,6 +30,7 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "framer-motion": "^4",
+    "fuse.js": "^6.4.6",
     "gatsby": "^4.0.0",
     "gatsby-plugin-graphql-codegen": "^3.0.0",
     "gatsby-plugin-image": "^2.0.0",
