@@ -56,11 +56,11 @@ const RightArrow = () => {
 
 interface SliderItemProps {
   image: IGatsbyImageData;
-  itemId: number;
+  alt: string;
   onClick: () => void;
 }
 
-const SliderItem: React.FC<SliderItemProps> = ({ image, itemId, onClick }) => (
+const SliderItem: React.FC<SliderItemProps> = ({ image, alt, onClick }) => (
   <Box mx={{ base: 1, md: 2 }}>
     <Image
       minW="3xs"
@@ -71,7 +71,7 @@ const SliderItem: React.FC<SliderItemProps> = ({ image, itemId, onClick }) => (
       fit="cover"
       as={GatsbyImage}
       image={image}
-      alt={`${itemId}`}
+      alt={alt}
       _hover={{
         opacity: '0.5',
         cursor: 'pointer',
@@ -83,9 +83,10 @@ const SliderItem: React.FC<SliderItemProps> = ({ image, itemId, onClick }) => (
 
 interface SliderProps {
   images: IGatsbyImageData[];
+  imagesAlt: string;
 }
 
-const Slider: React.FC<SliderProps> = ({ images }) => {
+const Slider: React.FC<SliderProps> = ({ images, imagesAlt }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [imageIndex, setImageIndex] = useState(-1);
 
@@ -103,7 +104,7 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
             // eslint-disable-next-line react/no-array-index-key
             key={index}
             image={image}
-            itemId={index}
+            alt={imagesAlt}
             onClick={() => handleClick(index)}
           />
         ))}

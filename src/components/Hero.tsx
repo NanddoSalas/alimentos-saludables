@@ -94,7 +94,7 @@ const Hero: React.FC<HeroProps> = ({ onClickSearch, onClickRandom }) => (
             overflow="hidden"
           >
             <StaticImage
-              alt="Hero"
+              alt="Alimentos Saludables"
               src="../images/hero.jpg"
               objectFit="cover"
               style={{ width: '100%', height: '100%' }}

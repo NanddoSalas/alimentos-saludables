@@ -60,6 +60,7 @@ const Monograph: React.FC<PageProps<MonographQuery>> = ({ data }) => (
                 (image) => image?.childImageSharp?.gatsbyImageData,
               ) || []
             }
+            imagesAlt={data.markdownRemark?.frontmatter?.title!}
           />
         </Box>
 
