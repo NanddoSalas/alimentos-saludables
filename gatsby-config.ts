@@ -2,7 +2,7 @@ export const siteMetadata = {
   title: 'Alimentos Saludables',
   titleTemplate: '%s · Alimentos Saludables',
   description: 'Mas de 150 Monografias de Alimentos Saludables!',
-  url: 'https://losalimentosaludables.com',
+  siteUrl: 'https://losalimentosaludables.com',
   image: '/hero.jpg',
 };
 

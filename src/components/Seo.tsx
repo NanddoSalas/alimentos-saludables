@@ -19,7 +19,7 @@ const Seo: React.FC<SeoProps> = ({ title, description, image, article }) => {
           title
           titleTemplate
           description
-          url
+          siteUrl
           image
         }
       }
@@ -41,7 +41,7 @@ const Seo: React.FC<SeoProps> = ({ title, description, image, article }) => {
         content={description || siteMetadata?.description!}
       />
 
-      <meta property="og:url" content={siteMetadata?.url!} />
+      <meta property="og:url" content={siteMetadata?.siteUrl!} />
 
       {article ? <meta property="og:type" content="article" /> : null}
 
