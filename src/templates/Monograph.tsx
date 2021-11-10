@@ -74,64 +74,68 @@ const Monograph: React.FC<PageProps<MonographQuery>> = ({ data }) => (
           />
         </Box>
 
-        <Heading
-          mb={{ base: 8, sm: 16 }}
-          fontWeight={600}
-          fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
-          textAlign="center"
-          color="whiteAlpha.800"
-        >
-          Informacion Nutricional
-        </Heading>
-
-        <Box mx={4}>
-          <Flex
-            justify="center"
-            bg="gray.900"
-            p={4}
-            borderRadius="xl"
-            maxW="xl"
-            m="auto"
-          >
-            <Table
-              variant="unstyled"
-              fontWeight="500"
-              fontSize={{ base: 'md', sm: 'lg', md: 'xl' }}
-              color="gray.300"
+        {data.markdownRemark?.frontmatter?.nutritionFacts?.length! > 0 && (
+          <>
+            <Heading
+              mb={{ base: 8, sm: 16 }}
+              fontWeight={600}
+              fontSize={{ base: '2xl', sm: '3xl', lg: '4xl' }}
+              textAlign="center"
+              color="whiteAlpha.800"
             >
-              <TableCaption
-                placement="top"
-                m={0}
-                fontSize={{ base: 'md', sm: 'lg', md: 'xl' }}
-                fontWeight="600"
-                color="whiteAlpha.900"
+              Informacion Nutricional
+            </Heading>
+
+            <Box mx={4}>
+              <Flex
+                justify="center"
+                bg="gray.900"
+                p={4}
+                borderRadius="xl"
+                maxW="xl"
+                m="auto"
               >
-                {`100 Gramos de ${data.markdownRemark?.frontmatter?.title} proporcionan`}
-              </TableCaption>
+                <Table
+                  variant="unstyled"
+                  fontWeight="500"
+                  fontSize={{ base: 'md', sm: 'lg', md: 'xl' }}
+                  color="gray.300"
+                >
+                  <TableCaption
+                    placement="top"
+                    m={0}
+                    fontSize={{ base: 'md', sm: 'lg', md: 'xl' }}
+                    fontWeight="600"
+                    color="whiteAlpha.900"
+                  >
+                    {`100 Gramos de ${data.markdownRemark?.frontmatter?.title} proporcionan`}
+                  </TableCaption>
 
-              <Tr>
-                <Th />
-                <Th textAlign="end">Aporte</Th>
-              </Tr>
+                  <Tr>
+                    <Th />
+                    <Th textAlign="end">Aporte</Th>
+                  </Tr>
 
-              <Tbody>
-                {data.markdownRemark?.frontmatter?.nutritionFacts?.map(
-                  (item, index) => (
-                    <Tr
-                      bg={index % 2 ? 'gray.900' : 'gray.800'}
-                      color={index % 2 ? 'gray.300' : 'green.400'}
-                    >
-                      <Td borderLeftRadius="xl">{item?.name}</Td>
-                      <Td borderRightRadius="xl" textAlign="end">
-                        {`${item?.value} ${item?.unit}`}
-                      </Td>
-                    </Tr>
-                  ),
-                )}
-              </Tbody>
-            </Table>
-          </Flex>
-        </Box>
+                  <Tbody>
+                    {data.markdownRemark?.frontmatter?.nutritionFacts?.map(
+                      (item, index) => (
+                        <Tr
+                          bg={index % 2 ? 'gray.900' : 'gray.800'}
+                          color={index % 2 ? 'gray.300' : 'green.400'}
+                        >
+                          <Td borderLeftRadius="xl">{item?.name}</Td>
+                          <Td borderRightRadius="xl" textAlign="end">
+                            {`${item?.value} ${item?.unit}`}
+                          </Td>
+                        </Tr>
+                      ),
+                    )}
+                  </Tbody>
+                </Table>
+              </Flex>
+            </Box>
+          </>
+        )}
       </Container>
     </Box>
 
