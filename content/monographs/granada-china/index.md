@@ -9,6 +9,7 @@ gallery:
   - granada-china.jpg
 createdAt: 2021-11-11T01:34:21.854Z
 updatedAt: 2021-11-11T01:34:21.862Z
+nutritionFacts: []
 ---
 La Granada China, también conocida como Granadilla se llama Passiflora ligularis y pertenece a la Familia taxonómica de las Passifloraceae; se trata de una planta trepadora de los climas templados de los Andes, la cual mide más de 15 metros de largo; su fruto es redondeado, ovoide de 6 a 8 cm de largo y de 5 a 7 cm de diámetro, de color amarillo intenso; su contenido es gelatinoso transparente ligeramente ácido, aromático y dulce.
 

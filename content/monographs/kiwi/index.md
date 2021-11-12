@@ -12,6 +12,85 @@ gallery:
   - árbol-de-kiwi.jpg
 createdAt: 2021-11-11T01:51:32.710Z
 updatedAt: 2021-11-11T01:51:32.721Z
+nutritionFacts:
+  - name: Calorías
+    value: "67"
+    unit: kcal
+  - name: Agua
+    value: "81"
+    unit: "%"
+  - name: Carbohidratos
+    value: "15"
+    unit: g
+  - name: Proteína
+    value: "1"
+    unit: g
+  - name: Grasa
+    value: "0.4"
+    unit: g
+  - name: Fibra Dietética
+    value: "1.1"
+    unit: g
+  - name: Calcio
+    value: "30"
+    unit: mg
+  - name: Fósforo
+    value: "41"
+    unit: mg
+  - name: Hierro
+    value: "0.4"
+    unit: mg
+  - name: Potasio
+    value: "300"
+    unit: mg
+  - name: Magnesio
+    value: "30"
+    unit: mg
+  - name: Sodio
+    value: "3"
+    unit: mg
+  - name: Zinc
+    value: "170"
+    unit: µg
+  - name: Selenio
+    value: "500"
+    unit: µg
+  - name: Cobre
+    value: "130"
+    unit: µg
+  - name: Vitamina A
+    value: "175"
+    unit: µg
+  - name: Betacarotenos
+    value: "40"
+    unit: µg
+  - name: Vitamina C
+    value: "93"
+    unit: mg
+  - name: Tiamina B1
+    value: "27"
+    unit: µg
+  - name: Riboflavina B2
+    value: "50"
+    unit: mg
+  - name: Niacina B3
+    value: "500"
+    unit: µg
+  - name: Piridoxina B6
+    value: "63"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "25"
+    unit: µg
+  - name: Vitamina E
+    value: "1.46"
+    unit: µg
+  - name: Luteína
+    value: "96"
+    unit: µg
+  - name: Zeaxantina
+    value: "93"
+    unit: µg
 ---
 El Kiwi se llama Actinidia deliciosa; en la literatura se le encuentra también como Actinidia chinensis, la cual es su sinonimia; pertenece a la Familia. Taxonómica de las Actinidiaceae; se trata de una planta comestible. medicinal por sus altos contenidos de Vitamina C, así como ornamental, pues se trata de una planta leñosa trepadora.
 
@@ -29,7 +108,7 @@ Los principales países productores de Kiwi son Nueva Zelanda, Chile, Grecia, Ja
 
 <br/>
 
-100 gramos de Kiwi nos proporcionan 67 kilocalorias; el 81% de su peso es agua; el 15% de su pesoson carbohidratos, de los cuales 9 gramos son sacarosa, razón por la cual tiene un indice glicémico de 52; cualquier alimento con valor glicémico superior a 50, debe de consumirse con prudencia, sobre todo por personas con diabetes;este Noticiero de la Salud recomienda vigilar frecuentemente los niveles de glucosa: en ayunas y dos horas después de cada alimento.
+100 gramos de Kiwi nos proporcionan 67 kilocalorias; el 81% de su peso es agua; el 15% de su pesoson carbohidratos, de los cuales 9 gramos son sacarosa, razón por la cual tiene un indice glicémico de 52; cualquier alimento con valor glicémico superior a 50, debe de consumirse con prudencia, sobre todo por personas con diabetes; este Noticiero de la Salud recomienda vigilar frecuentemente los niveles de glucosa: en ayunas y dos horas después de cada alimento.
 
 <br/>
 
@@ -37,11 +116,11 @@ El Kiwi, como la mayoría de las frutas, nos proporciona muy poca proteina, pues
 
 <br/>
 
-100 gramos de Kiwi nos proporciona varios minerales, como el Calcio con 30 miligramos (mg); Fósforo 41 mg; Hierro 0.4 mg; Potasio 300 mg; Magnesio 30 mg; Sodio 3 mg; Zinc 170 microgramos (ug); Selenio 500 ug y Cobre 130 ug.
+100 gramos de Kiwi nos proporciona varios minerales, como el Calcio con 30 mg; Fósforo 41 mg; Hierro 0.4 mg; Potasio 300 mg; Magnesio 30 mg; Sodio 3 mg; Zinc 170 microgramos (ug); Selenio 500 ug y Cobre 130 ug.
 
 <br/>
 
-También nos proporciona varios antioxidantes a base de Vitaminas: Vitamina A: 175microgramos (ug); Beta Carotenos: 40 ug; Vitamina C: 93 mg; las Vitaminas del complejo B: Tiamina B1: 27 ug; Riboflavina B2: 50 ug; Niacina B3: 500 ug: Piridoxina B6: 63 ug y Ácido Fólico B9: 25 ug; Vitamina E 1.46 ug; también contiene los antioxidantes Luteina 96 ug y Zeaxantinas, con 93 ug.
+También nos proporciona varios antioxidantes a base de Vitaminas: Vitamina A: 175 ug; Beta Carotenos: 40 ug; Vitamina C: 93 mg; las Vitaminas del complejo B: Tiamina B1: 27 ug; Riboflavina B2: 50 ug; Niacina B3: 500 ug: Piridoxina B6: 63 ug y Ácido Fólico B9: 25 ug; Vitamina E 1.46 ug; también contiene los antioxidantes Luteina 96 ug y Zeaxantinas, con 93 ug.
 
 <br/>
 

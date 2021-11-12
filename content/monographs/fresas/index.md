@@ -11,6 +11,79 @@ gallery:
   - fresa.jpg
 createdAt: 2021-11-11T01:23:08.852Z
 updatedAt: 2021-11-11T01:23:08.860Z
+nutritionFacts:
+  - name: Calorías
+    value: "33"
+    unit: kcal
+  - name: Agua
+    value: "91"
+    unit: "%"
+  - name: Grasa
+    value: "0.3"
+    unit: g
+  - name: Proteína
+    value: "0.67"
+    unit: g
+  - name: Carbohidratos
+    value: "7.7"
+    unit: g
+  - name: Fibra Soluble
+    value: "2"
+    unit: g
+  - name: Tiamina B1
+    value: "240"
+    unit: µg
+  - name: Riboflavina B2
+    value: "220"
+    unit: µg
+  - name: Niacina B3
+    value: "383"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "125"
+    unit: µg
+  - name: Piridoxina B6
+    value: "470"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "24"
+    unit: µg
+  - value: "80"
+    unit: mg
+    name: Vitamina C
+  - name: Vitamina E
+    value: "290"
+    unit: µg
+  - name: Vitamina K
+    value: "2.2"
+    unit: µg
+  - name: Calcio
+    value: "16"
+    unit: mg
+  - name: Fósforo
+    value: "24"
+    unit: mg
+  - name: Hierro
+    value: "2.12"
+    unit: mg
+  - name: Magnesio
+    value: "13"
+    unit: mg
+  - name: Manganeso
+    value: "0.386"
+    unit: mg
+  - name: Potasio
+    value: "153"
+    unit: mg
+  - name: Sodio
+    value: "1"
+    unit: mg
+  - name: Zinc
+    value: "1.8"
+    unit: mg
+  - name: Cobre
+    value: "0.16"
+    unit: mg
 ---
 La Fresa se llama Fragaria vesca y pertenece a la Familia Taxonómica de las Rosaceae, es originaria del Mediterráneo y del Asia Central; su cultivo y domesticación se remonta a los orígenes de la agriculturahace unos 8 mil años; llegó a nuestro País en el Siglo XVI.
 
@@ -36,12 +109,8 @@ Los antioxidantes de los frutos rojos del tipo flavonoide como las catequinas y 
 
 <br/>
 
-Es un buen multivitaminico; Vitaminas del complejo B; Tiamina B1: 240 microgramos (ug); Riboflavina B2: 220 ug; Niacina B3: 386 ug; Ácido Pantoténico B5: 125 ug: Piridoxina B6: 470 ug; Ácido fólico B9: 24 ug; Vitamina C: 80 mg; Vitamina E: 290 ug: Vitamina K: 2.2 ug.
+Es un buen multivitaminico; Vitaminas del complejo B; Tiamina B1: 240 ug; Riboflavina B2: 220 ug; Niacina B3: 386 ug; Ácido Pantoténico B5: 125 ug; Piridoxina B6: 470 ug; Ácido fólico B9: 24 ug; Vitamina C: 80 mg; Vitamina E: 290 ug; Vitamina K: 2.2 ug.
 
 <br/>
 
-También es un buen mineralizante; Calcio: 16 mg: Fósforo: 24 mg; Hierro: 2.12 mg; Magnesio: 13 mg; Manganeso: 0.386 mg; Potasio: 153 mg: Sodio: 1 mg; Zinc: 1.8 mg; Cobre 0.16 mg y trazas de Selenio.
-
-<br/>
-
-Flavonoides como la quercetina, controlan los alergenos del tracto intestinal y reduce la inflamación crónica; la colitis.
+También es un buen mineralizante; Calcio: 16 mg; Fósforo: 24 mg; Hierro: 2.12 mg; Magnesio: 13 mg; Manganeso: 0.386 mg; Potasio: 153 mg; Sodio: 1 mg; Zinc: 1.8 mg; Cobre 0.16 mg; trazas de Selenio y Flavonoides como la quercetina que controlan los alergenos del tracto intestinal, reduce la inflamación crónica y la colitis.

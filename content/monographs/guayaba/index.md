@@ -12,6 +12,58 @@ gallery:
   - guayaba-1-.jpg
 createdAt: 2021-11-11T01:43:04.463Z
 updatedAt: 2021-11-11T01:43:04.471Z
+nutritionFacts:
+  - name: Calorías
+    value: "50"
+    unit: kcal
+  - name: Grasa
+    value: "0.42"
+    unit: g
+  - name: Proteína
+    value: "1.21"
+    unit: g
+  - name: Carbohidratos
+    value: "13"
+    unit: mg
+  - name: Fibra Cruda
+    value: "5.8"
+    unit: g
+  - name: Vitamina C
+    value: 75-242
+    unit: mg
+  - name: Vitamina A
+    value: "280"
+    unit: µg
+  - name: Tiamina B1
+    value: "60"
+    unit: µg
+  - name: Riboflavina B2
+    value: "90"
+    unit: µg
+  - name: Niacina B3
+    value: "1400"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "1470"
+    unit: µg
+  - name: Betacarotenos
+    value: "1470"
+    unit: µg
+  - name: Calcio
+    value: "30"
+    unit: mg
+  - name: Fósforo
+    value: "29"
+    unit: mg
+  - name: Hierro
+    value: "2.9"
+    unit: mg
+  - name: Cobre
+    value: "0.08"
+    unit: mg
+  - name: Zinc
+    value: "980"
+    unit: µg
 ---
 El árbol de la guayaba es originario de México; su nombre es Psidium guajaba y pertenece a la Familia Taxonómica de las Myrtaceae, lo podemos encontrar como árbol silvestre, Razas criollas y Variedades de árboles ya modificados genéticamente a través de la domesticación; así que es una planta alimenticia y medicinal usada desde antes de los ay tiempos del inicio de la agricultura; por lo menos los últimos 10 mil años.
 
@@ -25,7 +77,7 @@ La guayaba es una de las frutas que proporciona más fibra cruda con el 5.8% y t
 
 <br/>
 
-Es un buen multivitamínico, pues contiene Vitamina A: 280 ug; las Vitaminas del complejo B como la B1 Tiamina: 60 microgramos (ug); Riboflabina B2: 90 ug y la Niacina B3 con 1400 ug: y además nos proporciona ácido fólico y los Beta-carotenos con 1470 ug.
+Es un buen multivitamínico, pues contiene Vitamina A: 280 ug; las Vitaminas del complejo B como la B1 Tiamina: 60 ug; Riboflabina B2: 90 ug y la Niacina B3 con 1400 ug: y además nos proporciona ácido fólico y los Beta-carotenos con 1470 ug.
 
 <br/>
 
