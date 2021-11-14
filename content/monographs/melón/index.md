@@ -12,6 +12,91 @@ gallery:
   - melon.jpg
 createdAt: 2021-11-11T02:06:29.082Z
 updatedAt: 2021-11-11T02:06:29.092Z
+nutritionFacts:
+  - name: Calorías
+    value: "44"
+    unit: kcal
+  - name: Agua
+    value: "87"
+    unit: "%"
+  - name: Carbohidratos
+    value: "10"
+    unit: g
+  - name: Azúcares
+    value: "8"
+    unit: g
+  - name: Proteína
+    value: "0.6"
+    unit: g
+  - name: Grasa
+    value: "0.2"
+    unit: g
+  - name: Fibra Soluble
+    value: "1"
+    unit: g
+  - name: Calcio
+    value: "16"
+    unit: mg
+  - name: Fósforo
+    value: "32"
+    unit: mg
+  - name: Hierro
+    value: "0.4"
+    unit: mg
+  - name: Potasio
+    value: "320"
+    unit: mg
+  - name: Magnesio
+    value: "12"
+    unit: mg
+  - name: Sodio
+    value: "9"
+    unit: mg
+  - name: Cobre
+    value: "0.04"
+    unit: µg
+  - name: Zinc
+    value: "90"
+    unit: µg
+  - name: Vitamina A
+    value: "3.4"
+    unit: µg
+  - name: Betacarotenos
+    value: "295"
+    unit: µg
+  - name: Vitamina C
+    value: "37"
+    unit: mg
+  - name: Vitamina E
+    value: "0.5"
+    unit: µg
+  - name: Tiamina B1
+    value: "41"
+    unit: µg
+  - name: Riboflavina B2
+    value: "20"
+    unit: µg
+  - name: Niacina B3
+    value: "734"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "105"
+    unit: µg
+  - name: Piridoxina B6
+    value: "110"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "2.7"
+    unit: µg
+  - name: Vitamina K
+    value: "0.002"
+    unit: µg
+  - name: Betacriptoxantina
+    value: "103"
+    unit: µg
+  - name: Luteína
+    value: "17"
+    unit: µg
 ---
 El Melón se llama Cucumis melo y pertenece a la Familia Taxonómica de las Cucurbitaceae; es un bejuco rastrero que se cultiva en las regiones tropicales de México y en casi todo el país se consume principalmente como fruta fresca y para rehidratar el cuerpo como una de las aguas frescas más populares, la cual se prepara sin, ó con semilla molida, dando el aspecto de una horchata.
 
@@ -33,7 +118,7 @@ Se recomienda No agregar azúcar a las aguas de frutas; si acaso, se endulzan co
 
 <br/>
 
-100 gramos de Melón nos proporciona varios minerales; como el Calcio con 16 miligramos (mg); Fósforo 32 mg: Hierro 0.4 mg; Potasio 320 mg; Magnesio 12 mg; Sodio 9 mg; Cobre 0.04 microgramos (ug); y Zinc 90 ug.
+100 gramos de Melón nos proporciona varios minerales; como el Calcio con 16 mg; Fósforo 32 mg: Hierro 0.4 mg; Potasio 320 mg; Magnesio 12 mg; Sodio 9 mg; Cobre 0.04 ug; y Zinc 90 ug.
 
 <br/>
 

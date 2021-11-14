@@ -13,6 +13,73 @@ gallery:
   - naranja.jpg
 createdAt: 2021-11-11T02:15:02.323Z
 updatedAt: 2021-11-11T02:15:02.333Z
+nutritionFacts:
+  - name: Calorías
+    value: "52"
+    unit: kcal
+  - name: Grasa
+    value: "0.1"
+    unit: g
+  - name: Proteína
+    value: "1.7"
+    unit: g
+  - name: Carbohidratos
+    value: "13"
+    unit: g
+  - name: Fibra
+    value: "2.4"
+    unit: g
+  - name: Vitamina C
+    value: "53"
+    unit: mg
+  - name: Vitamina A
+    value: "11"
+    unit: µg
+  - name: Betacarotenos
+    value: "140"
+    unit: µg
+  - name: Tiamina B1
+    value: "870"
+    unit: µg
+  - name: Riboflavina B2
+    value: "40"
+    unit: µg
+  - name: Niacina B3
+    value: "280"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "250"
+    unit: µg
+  - name: Piridoxina B6
+    value: "60"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "30"
+    unit: µg
+  - name: Vitamina E
+    value: "180"
+    unit: µg
+  - name: Calcio
+    value: "56"
+    unit: mg
+  - name: Fósforo
+    value: "24"
+    unit: mg
+  - name: Hierro
+    value: "2"
+    unit: mg
+  - name: Potasio
+    value: "181"
+    unit: mg
+  - name: Magnesio
+    value: "20"
+    unit: mg
+  - name: Manganeso
+    value: "0.025"
+    unit: mg
+  - name: Zinc
+    value: "0.5"
+    unit: mg
 ---
 La naranja es un árbol originario de la India y China y su nombre es Citrus sinensis y la naranja amarga se llama Citrus aurantium; ambas especies pertenecen a la Familia Taxonómica de las Rutaceae; cultivadas en México desde que fueron traídas por los españoles en Siglo XVI.
 
@@ -22,7 +89,7 @@ No se recomienda consumir el jugo de naranja, pues tiene más glucosa que los re
 
 <br/>
 
-Cien gramos de gajos de naranja proporcionan 52 kilocalorías; muy baja en grasas, con sólo el 0.1%; contiene el 1.7 % de proteína y el 13% de carbohidratos; tiene el 2.4% de fibra comestible y es un buen multivitamínico; sobre todo como fuente de Vitamina C, pues proporciona 53 miligramos de este antioxidante que previene los resfriados, muy comunes en el invierno. Proporciona 11 mg de retinol (Vitamina A); 140 microgramos (ug) de Beta carotenos y nos provee de las vitaminas del complejo B: Tiamina B1: 870 ug: Rivoflavina B2: 40 ug; Niacina B3: 280 ug: Ácido pantoténico B5: 250 ug; Piridoxina B6: 60 ug: Ácido fólico B9: 30 ug y Vitamina E con 180 ug.
+Cien gramos de gajos de naranja proporcionan 52 kilocalorías; muy baja en grasas, con sólo el 0.1%; contiene el 1.7 % de proteína y el 13% de carbohidratos; tiene el 2.4% de fibra y es un buen multivitamínico; sobre todo como fuente de Vitamina C, pues proporciona 53 miligramos de este antioxidante que previene los resfriados, muy comunes en el invierno. Proporciona 11 ug de Vitamina A; 140 ug de Beta carotenos y nos provee de las vitaminas del complejo B: Tiamina B1: 870 ug: Rivoflavina B2: 40 ug; Niacina B3: 280 ug: Ácido pantoténico B5: 250 ug; Piridoxina B6: 60 ug: Ácido fólico B9: 30 ug y Vitamina E con 180 ug.
 
 <br/>
 

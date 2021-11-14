@@ -12,6 +12,103 @@ gallery:
   - cultivo-de-mango1.jpg
 createdAt: 2021-11-11T01:59:21.370Z
 updatedAt: 2021-11-11T01:59:21.382Z
+nutritionFacts:
+  - name: Calorías
+    value: "52"
+    unit: kcal
+  - name: Agua
+    value: "86"
+    unit: "%"
+  - name: Carbohidratos
+    value: "15"
+    unit: g
+  - name: Azúcares
+    value: "11"
+    unit: g
+  - name: Proteína
+    value: "0.8"
+    unit: g
+  - name: Grasa
+    value: "0.5"
+    unit: g
+  - name: Fibra Soluble
+    value: "2"
+    unit: g
+  - name: Calcio
+    value: "11"
+    unit: mg
+  - name: Fósforo
+    value: "14"
+    unit: mg
+  - name: Hierro
+    value: "0.2"
+    unit: mg
+  - name: Potasio
+    value: "156"
+    unit: mg
+  - name: Magnesio
+    value: "10"
+    unit: mg
+  - name: Sodio
+    value: "1"
+    unit: mg
+  - name: Cobre
+    value: "0.11"
+    unit: µg
+  - name: Selenio
+    value: "1"
+    unit: µg
+  - name: Zinc
+    value: "90"
+    unit: µg
+  - name: Vitamina A
+    value: "54"
+    unit: µg
+  - name: Alfacarotenos
+    value: "19"
+    unit: µg
+  - name: Betacarotenos
+    value: "1325"
+    unit: µg
+  - name: Vitamina C
+    value: "281"
+    unit: mg
+  - name: Tiamina B1
+    value: "60"
+    unit: µg
+  - name: Riboflavina B2
+    value: "60"
+    unit: µg
+  - name: Niacina B3
+    value: "669"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "197"
+    unit: µg
+  - name: Piridoxina B6
+    value: "130"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "49"
+    unit: µg
+  - name: Vitamina E
+    value: "0.9"
+    unit: µg
+  - name: Vitamina K
+    value: "4.2"
+    unit: µg
+  - name: Licopeno
+    value: "6"
+    unit: µg
+  - name: Betacriptoxantina
+    value: "21"
+    unit: µg
+  - name: Luteína
+    value: "48"
+    unit: µg
+  - name: Zeaxantina
+    value: "48"
+    unit: µg
 ---
 El Mango se llama Manguifera indica y pertenece a la Familia Taxonómica de las Anacardiaceae; es un árbol de 12 a 30 metros, se cultiva en las regiones tropicales de México y en casi todo el país se consumen unas 10 variedades genéticas, predominando el mango criollo, Ataulfo, Petacón; pero el más apreciado por su sabor es el Mango Manila; principalmente se consumen como fruta fresca; recientemente se ha incorporado como sazonador de ensaladas con miel de abeja, o como parte de varias ensaladas y postres en la gastronomía nacional y mundial.
 
@@ -33,11 +130,11 @@ Se recomienda No agregar azúcar a las aguas de frutas; si acaso, se endulzan co
 
 <br/>
 
-100 gramos de Mango promedio nos proporciona varios minerales; como el Calcio con 11 miligramos (mg); Fósforo 14 mg; Hierro 0.2 mg; Potasio 156 mg: Magnesio 10 mg: Sodio 1 mg: Cobre 0.110 microgramos (ug): Selenio 1 ug y Zinc 90 ug. El Mango, en promedio nos proporciona varias Vitaminas: Vitamina A:
+100 gramos de Mango promedio nos proporciona varios minerales; como el Calcio con 11 mg; Fósforo 14 mg; Hierro 0.2 mg; Potasio 156 mg: Magnesio 10 mg: Sodio 1 mg: Cobre 0.110 ug: Selenio 1 ug y Zinc 90 ug.
 
 <br/>
 
-54 ug; Alfa Carotenos 19 ug: Beta Carotenos 1325 ug; Vitamina C: 281 mg: Vitaminas del complejo B. Tiamina B1: 60 ug: Riboflavina B2: 60 ug; Niacina B3: 669 ug; Ácido Pantoténico B5: 197 ug: Piridoxina B6: 130 ug y Ácido Fólico B9: 46 ug: Vitamina E 0.9 ug: Vitamina K 4.2 ug; nos pro porciona otros antioxidantes como el Licopeno 6 ug: Beta criptoxantinas 21 ug y Luteina más Zeaxantinas 48 ug.
+El Mango, en promedio nos proporciona varias Vitaminas: Vitamina A: 54 ug; Alfa Carotenos 19 ug: Beta Carotenos 1325 ug; Vitamina C: 281 mg: Vitaminas del complejo B. Tiamina B1: 60 ug: Riboflavina B2: 60 ug; Niacina B3: 669 ug; Ácido Pantoténico B5: 197 ug: Piridoxina B6: 130 ug y Ácido Fólico B9: 46 ug: Vitamina E 0.9 ug: Vitamina K 4.2 ug; nos pro porciona otros antioxidantes como el Licopeno 6 ug: Beta criptoxantinas 21 ug y Luteina más Zeaxantinas 48 ug.
 
 <br/>
 

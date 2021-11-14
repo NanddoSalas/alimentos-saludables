@@ -9,6 +9,73 @@ gallery:
   - pasas.jpg
 createdAt: 2021-11-11T02:25:43.202Z
 updatedAt: 2021-11-11T02:25:43.211Z
+nutritionFacts:
+  - name: Agua
+    value: "15"
+    unit: "%"
+  - name: Calorías
+    value: "300"
+    unit: kcal
+  - name: Carbohidratos
+    value: "79"
+    unit: g
+  - name: Proteína
+    value: "3.2"
+    unit: g
+  - name: Grasa
+    value: "0.5"
+    unit: g
+  - name: Fibra
+    value: "4"
+    unit: g
+  - name: Vitamina A
+    value: "13.2"
+    unit: µg
+  - name: Tiamina B1
+    value: "1600"
+    unit: µg
+  - name: Niacina B3
+    value: "820"
+    unit: µg
+  - name: Piridoxina B6
+    value: "250"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "3"
+    unit: µg
+  - name: Vitamina C
+    value: 3,3
+    unit: mg
+  - name: Vitamina E
+    value: "0.7"
+    unit: mg
+  - name: Calcio
+    value: "50"
+    unit: mg
+  - name: Magnesio
+    value: "33"
+    unit: mg
+  - name: Fósforo
+    value: "100"
+    unit: mg
+  - name: Sodio
+    value: "12"
+    unit: mg
+  - name: Potasio
+    value: "751"
+    unit: mg
+  - name: Hierro
+    value: "2"
+    unit: mg
+  - name: Zinc
+    value: "0.3"
+    unit: mg
+  - name: Cobre
+    value: "0.3"
+    unit: mg
+  - name: Selenio
+    value: "0.7"
+    unit: µg
 ---
 Las pasas son las uvas parcialmente deshidratadas, con el 15% de humedad, y se llaman Vitis vinifera, pertenece a la Familia Taxonómica de las Ampelidaceae; es un arbusto trepador, leñoso, que vive más de cien años; Plinio escribe que vive más de 600 años y que acompaña al ser humano desde su origen.
 
@@ -28,7 +95,7 @@ El Instituto Nacional de Cancerología de los E. U. y el de México, recomiendan
 
 100 gramos de pasas nos proporcionan 300 kilocalorías; 79% de carbohidratos, en especial azúcares, razón por la cual tiene un indice glicémico de 64 unidades, en comparación de las 100 unidades de la glucosa pura; así que su consumo por los diabéticos debe de ser con prudencia y si están controlados, pueden consumir dos cucharadas soperas cada día, o más, sobre todo si hacen más de 90 min de ejercicio.
 
-Por cada 100 gramos nos proporciona poca proteína con 3.2 gr; grasas 0.5 gr; fibras 4 gr; Vit. A, 44 unidades internacionales; Vitaminas del complejo B: Tiamina B1, 1600 microgramos (ug); Riboflavina B2, 90 mg; Niacina B3, 820 ug; Piridoxina B6, 250 ug; Ácido Fólico B9, 3 ug; Vit. C, 3.3 mg: Vit. E, 0.7 mg.
+Por cada 100 gramos nos proporciona poca proteína con 3.2 gr; grasas 0.5 gr; fibras 4 gr; Vit. A, 44 unidades internacionales; Vitaminas del complejo B: Tiamina B1, 1600 ug; Niacina B3, 820 ug; Piridoxina B6, 250 ug; Ácido Fólico B9, 3 ug; Vit. C, 3.3 mg: Vit. E, 0.7 mg.
 
 <br/>
 

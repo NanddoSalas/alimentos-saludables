@@ -11,6 +11,100 @@ gallery:
   - pera.jpg
 createdAt: 2021-11-11T03:05:10.576Z
 updatedAt: 2021-11-11T03:05:10.584Z
+nutritionFacts:
+  - name: Calorías
+    value: "53"
+    unit: kcal
+  - name: Agua
+    value: "84"
+    unit: "%"
+  - name: Grasa
+    value: "0.1"
+    unit: g
+  - name: Proteína
+    value: "0.4"
+    unit: g
+  - name: Carbohidratos
+    value: "14"
+    unit: g
+  - name: Azúcares
+    value: "10"
+    unit: g
+  - name: Fibra Soluble
+    value: 3,1
+    unit: g
+  - name: Vitamina A
+    value: " 3.3"
+    unit: µg
+  - name: Betacarotenos
+    value: "22"
+    unit: µg
+  - name: Alfacarotenos
+    value: "6"
+    unit: µg
+  - name: Tiamina B1
+    value: "12"
+    unit: µg
+  - name: Riboflavina B2
+    value: "25"
+    unit: µg
+  - name: Niacina B3
+    value: "157"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "48"
+    unit: µg
+  - name: Piridoxina B6
+    value: "28"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "7"
+    unit: µg
+  - name: Vitamina C
+    value: "8"
+    unit: mg
+  - name: Vitamina E
+    value: "0.5"
+    unit: mg
+  - name: Vitamina K
+    value: "4.5"
+    unit: µg
+  - name: Luteína
+    value: "0.01"
+    unit: µg
+  - name: Betacriptoxantina
+    value: "3"
+    unit: µg
+  - name: Calcio
+    value: "9"
+    unit: mg
+  - name: Fósforo
+    value: "11"
+    unit: mg
+  - name: Hierro
+    value: "170"
+    unit: µg
+  - name: Magnesio
+    value: "8.4"
+    unit: mg
+  - name: Manganeso
+    value: "76"
+    unit: µg
+  - name: Potasio
+    value: "130"
+    unit: mg
+  - name: Sodio
+    value: "1"
+    unit: mg
+  - name: Cobre
+    value: "113"
+    unit: µg
+  - name: Zinc
+    value: "120"
+    unit: µg
+  - name: Selenio
+    value: "1"
+    unit: mg
 ---
 La Pera se llama Pyrus communis y pertenece a la Familia de las Rosaceae; es unárbol caducifolio de clima templado originario del Asia Central; su cultivo y domesticación se remonta a los orígenes de la agricultura hace unos 10 mil años; en pocos años se volvió un cultivo común en Europa y de ahí llegó a nuestro País en el Siglo XVI; el día de hoy es un cultivo muy común en el Valle de México.
 
@@ -20,7 +114,7 @@ La Pera se llama Pyrus communis y pertenece a la Familia de las Rosaceae; es un�
 
 <br/>
 
-Es un buen multivitamínico; Vitamina A: 23 Unidades Internacionales (u.i.); Beta Carotenos: 22 microgramos (ug); Alfa Carotenos: 6 ug: Vitaminas del complejo B; Tiamina B1: 12 ug; Riboflavina B2: 25 ug: Niacina B3: 157 ug: Ácido Pantoténico B5: 48 ug: Piridoxina B6: 28 ug; Ácido fólico B9: 7 ug: Vitamina C: 8 mg; Vitamina E: 0.5 mg; Vitamina K: 4.5 ug; además contiene otros antioxidantes a base de Luteína 0.01 ug: Beta Criptoxantinas 3 ug y Zeaxantinas 75 ug.
+Es un buen multivitamínico; Vitamina A: 23 Unidades Internacionales (u.i.); Beta Carotenos: 22 ug; Alfa Carotenos: 6 ug: Vitaminas del complejo B; Tiamina B1: 12 ug; Riboflavina B2: 25 ug: Niacina B3: 157 ug: Ácido Pantoténico B5: 48 ug: Piridoxina B6: 28 ug; Ácido fólico B9: 7 ug: Vitamina C: 8 mg; Vitamina E: 0.5 mg; Vitamina K: 4.5 ug; además contiene otros antioxidantes a base de Luteína 0.01 ug: Beta Criptoxantinas 3 ug y Zeaxantinas 75 ug.
 
 <br/>
 
