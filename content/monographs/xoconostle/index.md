@@ -10,6 +10,46 @@ gallery:
   - xoconostle.jpeg
 createdAt: 2021-11-11T03:52:47.483Z
 updatedAt: 2021-11-11T03:52:47.492Z
+nutritionFacts:
+  - name: Calorías
+    value: "25"
+    unit: kcal
+  - name: Agua
+    value: "86"
+    unit: "%"
+  - name: Grasa
+    value: "0.4"
+    unit: g
+  - name: Proteína
+    value: "0.1"
+    unit: g
+  - name: Carbohidratos
+    value: "5.2"
+    unit: g
+  - name: Fibra Soluble
+    value: "2.3"
+    unit: g
+  - name: Vitamina A
+    value: "2"
+    unit: µg
+  - name: Tiamina B1
+    value: "40"
+    unit: µg
+  - name: Riboflavina B2
+    value: "20"
+    unit: µg
+  - name: Niacina B3
+    value: "20"
+    unit: µg
+  - name: Vitamina C
+    value: "22"
+    unit: mg
+  - name: Calcio
+    value: "126"
+    unit: mg
+  - name: Hierro
+    value: "0.3"
+    unit: mg
 ---
 El Xoconostle se llama Opuntia streptacantha y pertenece a la Familia taxonómica de las Cactaceae; es un árbol carnoso, que se cultiva desde los orígenes de la agricultura, hace unos 10 mil años en México; actualmente se consume en varios tipos de sopas, guisos y postres; y como planta medicinal en jarabes y tés para prevenir la gripe y las infecciones del aparato respiratorio; es muy difundido su uso para descongestionar de flemas nariz, garganta y pulmones.
 
@@ -19,7 +59,7 @@ El Xoconostle se llama Opuntia streptacantha y pertenece a la Familia taxonómic
 
 <br/>
 
-El Xoconostle, por cada 100 gramos nos aporta: Vitamina A: 2 microgramos lugl: Vitaminas del complejo B; Tiamina B1: 40 ug: Riboflavina B2: 20 ug: Niacina B3: 20 ug y Vitamina C: 22 mg.
+El Xoconostle, por cada 100 gramos nos aporta: Vitamina A: 2 ug: Vitaminas del complejo B; Tiamina B1: 40 ug: Riboflavina B2: 20 ug: Niacina B3: 20 ug y Vitamina C: 22 mg.
 
 <br/>
 

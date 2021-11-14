@@ -11,12 +11,61 @@ gallery:
   - zapote-negro6.jpg
 createdAt: 2021-11-11T04:00:51.507Z
 updatedAt: 2021-11-11T04:00:51.519Z
+nutritionFacts:
+  - name: Calorías
+    value: "62"
+    unit: kcal
+  - name: Agua
+    value: "82"
+    unit: "%"
+  - name: Grasa
+    value: "0.1"
+    unit: g
+  - name: Proteína
+    value: "1"
+    unit: g
+  - name: Carbohidratos
+    value: "15"
+    unit: g
+  - name: Vitamina A
+    value: "5"
+    unit: µg
+  - name: Tiamina B1
+    value: "60"
+    unit: µg
+  - name: Riboflavina B2
+    value: "30"
+    unit: µg
+  - name: Niacina B3
+    value: "200"
+    unit: µg
+  - name: Betacarotenos
+    value: "1"
+    unit: µg
+  - name: Vitamina C
+    value: "110"
+    unit: mg
+  - name: Calcio
+    value: "70"
+    unit: mg
+  - name: Hierro
+    value: "1.6"
+    unit: mg
+  - name: Fósforo
+    value: "35"
+    unit: mg
+  - name: Sodio
+    value: "14"
+    unit: mg
+  - name: Potasio
+    value: "18"
+    unit: mg
 ---
 El Zapote negro se llama Diospyros digyna y pertenece a la Familia Taxonómica de las Ebenaceae; se trata de un árbol de los climas cálidos. y húmedos, el cual llega a medir 25 metros de altura; su fruto es una baya parecida al Jitomate de 5 a 10 centímetros de diámetro, cuando. madura la fruta es de color verde y la pulpa color marrón, casi negra.
 
 <br/>
 
-Su uso es eminentemente alimenticio y cada vez se usa más en la gastronomía de varios países, generalmente como postre en mezcla con la pulpa de cítricos como la Naranja, lima y la mandarina; también se le encuentra en paletas y helados..
+Su uso es eminentemente alimenticio y cada vez se usa más en la gastronomía de varios países, generalmente como postre en mezcla con la pulpa de cítricos como la Naranja, lima y la mandarina; también se le encuentra en paletas y helados.
 
 <br/>
 
@@ -28,12 +77,8 @@ En México crece en las regiones cálidas y húmedas, a partir de Cuernavaca en 
 
 <br/>
 
-Por cada 100 gramos, el Zapote negro nos aporta Vitamina A: 5 microgramos (ug); Tiamina B1: 60 ug; Riboflavina B2: 30 ug; Niacina B3: 200 ug; Beta Carotenos 1 ug: Vitamina C: 110 miligramos (mg).
+Por cada 100 gramos, el Zapote negro nos aporta Vitamina A: 5 ug; Tiamina B1: 60 ug; Riboflavina B2: 30 ug; Niacina B3: 200 ug; Beta Carotenos 1 ug: Vitamina C: 110 mg.
 
 <br/>
 
 En lo referente a los minerales, el Zapote negro nos proporciona: Calcio: 70 mg; Hierro: 1.6 mg; Fósforo: 35 mg; Sodio: 14 mg y Potasio: 18 mg.
-
-<br/>
-
-A partir de las recomendaciones que hace el Colegio Real de Londres, de Inglaterra, para que los humanos, en su condición de primates herbívoros, los cuales requieren al menos del consumo de 800 gramos de 10 frutas diferentes cada día, así como otros 800 gramos de al menos. 10 verduras diferentes, también cada día; este Noticiero de la Salud, seguirá dando a conocer las monografias, de un alimento saludable cada semana.En México hay más de 700 árboles frutales, más de 400 quelites diferentes, así como una gran cantidad de otras verduras y más de 15 semillas oleaginosas como fuente de proteina y grasa, como las almendras, ajonjolí linaza, chía, calabaza, girasol, nueces, piñones, etc.

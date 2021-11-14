@@ -11,6 +11,91 @@ gallery:
   - toronja.jpg
 createdAt: 2021-11-11T03:42:48.948Z
 updatedAt: 2021-11-11T03:42:48.955Z
+nutritionFacts:
+  - name: Calorías
+    value: "31"
+    unit: kcal
+  - name: Agua
+    value: "86"
+    unit: "%"
+  - name: Fibra Dietética
+    value: "5"
+    unit: "%"
+  - name: Carbohidratos
+    value: "6"
+    unit: g
+  - name: Proteína
+    value: "0.8"
+    unit: g
+  - name: Grasa
+    value: "0.4"
+    unit: g
+  - name: Calcio
+    value: "29"
+    unit: mg
+  - name: Fósforo
+    value: "21"
+    unit: mg
+  - name: Hierro
+    value: "2.1"
+    unit: mg
+  - name: Magnesio
+    value: "10"
+    unit: mg
+  - name: Potasio
+    value: "190"
+    unit: mg
+  - name: Cobre
+    value: "0.06"
+    unit: µg
+  - name: Selenio
+    value: "0.5"
+    unit: µg
+  - name: Zinc
+    value: "70"
+    unit: µg
+  - name: Vitamina A
+    value: "46"
+    unit: µg
+  - name: Vitamina C
+    value: "32"
+    unit: mg
+  - name: Vitamina E
+    value: "0.12"
+    unit: µg
+  - name: Tiamina B1
+    value: "10"
+    unit: µg
+  - name: Riboflavina B2
+    value: "30"
+    unit: µg
+  - name: Niacina B3
+    value: "300"
+    unit: µg
+  - name: Piridoxina B6
+    value: "40"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "18"
+    unit: µg
+  - name: Alfacarotenos
+    value: "5"
+    unit: µg
+  - name: Betacarotenos
+    value: "603"
+    unit: µg
+  - name: Licopeno
+    value: "1462"
+    unit: µg
+  - name: Betacarotenos
+    value: "12"
+    unit: µg
+  - name: Luteína
+    value: "13"
+    unit: µg
+  - name: Zeaxantina
+    value: "13"
+    unit: µg
 ---
 La Toronja se llama Citrus grandis y pertenece a la Familia Taxonómica de las Rutaceae; es un árbol originario de la India, como el resto de los cítricos, pero rápidamente se extendió su cultivo por el Mediterráneo y llegó a México en el siglo XVI.
 
@@ -20,11 +105,11 @@ La Toronja se llama Citrus grandis y pertenece a la Familia Taxonómica de las R
 
 <br/>
 
-Por cada 100 gramos de Toronja se proporcionan minerales como el Calcio 29 miligramos (mg); Fósforo 21 mg; Hierro 0.1 mg: Magnesio 10 mg; Sodio 0 mg; Potasio 190 mg: Cobre 0.06 microgramos (ug); Selenio 0.5 ug y Zinc 70 ug.
+Por cada 100 gramos de Toronja se proporcionan minerales como el Calcio 29 mg; Fósforo 21 mg; Hierro 0.1 mg: Magnesio 10 mg; Potasio 190 mg: Cobre 0.06 ug; Selenio 0.5 ug y Zinc 70 ug.
 
 <br/>
 
-Nos proporciona la Toronja una gran cantidad de antioxidantes además de los minerales; Vitamina A 46 ug;: Vitamina C 32 mg; Vitamina E 0.12 ug: Vitaminas del complejo B: Tiamina B1 10 ug; Riboflavina B2 30 ug: Niacina B3 300 ug: Piridoxina B6 40 ug; Ácido fólico 18 ug: Alfa carotenos 5 ug: Beta carotenos 603 ug; Licopeno 1462 ug; Beta criptoxantinas 12 ug y Luteina más Zeaxantinas 13 ug.
+Nos proporciona la Toronja una gran cantidad de antioxidantes además de los minerales; Vitamina A 46 ug; Vitamina C 32 mg; Vitamina E 0.12 ug: Vitaminas del complejo B: Tiamina B1 10 ug; Riboflavina B2 30 ug: Niacina B3 300 ug: Piridoxina B6 40 ug; Ácido fólico B9 18 ug: Alfa carotenos 5 ug: Beta carotenos 603 ug; Licopeno 1462 ug; Beta criptoxantinas 12 ug y Luteina más Zeaxantinas 13 ug.
 
 <br/>
 

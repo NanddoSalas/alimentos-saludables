@@ -10,6 +10,46 @@ gallery:
   - pitahaya-amarilla.jpg
 createdAt: 2021-11-11T03:14:39.055Z
 updatedAt: 2021-11-11T03:14:39.061Z
+nutritionFacts:
+  - name: Calorías
+    value: "53"
+    unit: kcal
+  - name: Agua
+    value: "83"
+    unit: g
+  - name: Grasa
+    value: "0.6"
+    unit: g
+  - name: Proteína
+    value: "1.6"
+    unit: g
+  - name: Fibra Dietética
+    value: "2.2"
+    unit: g
+  - name: Carbohidratos
+    value: "10"
+    unit: g
+  - name: Tiamina B1
+    value: "70"
+    unit: µg
+  - name: Riboflavina B2
+    value: "70"
+    unit: µg
+  - name: Niacina B3
+    value: "300"
+    unit: µg
+  - name: Vitamina C
+    value: "16"
+    unit: mg
+  - name: Calcio
+    value: "11"
+    unit: mg
+  - name: Fósforo
+    value: "26"
+    unit: mg
+  - name: Hierro
+    value: "1.9"
+    unit: mg
 ---
 La Pitajaya se llama Hylocereus undatos y pertenece a la Familia taxonómica de las Cactaceae; se trata de un bejuco que se trepa en las rocas y en los árboles, es perenne, pues vive varios años; alcanza más de 10 metros de largo; es originaria de México; de las zonas áridas y semiáridas; se trata de una planta que no resiste las heladas; se obtienen sus grandes frutos por recolecta de plantas silvestres y cultivos a pequeña escala en huertos familiares desde los origenes de la agricultura;en los últimos años, se han abierto a la siembra varias hectáreas, pues rápidamente ha aumentado la demanda dentro y fuera del país; se trata de un fruto color rosa mexicano por fuera y con una pulpa blanca con pequeñas semillas negras por dentro, aunque las hay de otros colores; pesa en promedio medio kilo y mide de 10 a 20 centímetros de largo y de 7 a 15 cm de diámetro; hay mucha variación en el tamaño y peso de esta. fruta, pues se trata de una planta en proceso de domesticación.
 
@@ -19,8 +59,8 @@ Por cada 100 gramos, la fruta de la Pitajaya nos proporciona 53 kilocalorías; 8
 
 <br/>
 
-Por cada 100 gramos, la fruta de la Pitajaya nos aporta Vitaminas del complejo B: Tiamina B1: 70 microgramos (ug); Riboflavina B2: 70 ug; Niacina B3: 300 ug; Vitamina C: 16 mg; también nos proporciona otros. antioxidantes, los cuales están en estudio.
+Por cada 100 gramos, la fruta de la Pitajaya nos aporta Vitaminas del complejo B: Tiamina B1: 70 ug; Riboflavina B2: 70 ug; Niacina B3: 300 ug; Vitamina C: 16 mg; también nos proporciona otros antioxidantes, los cuales están en estudio.
 
 <br/>
 
-En lo referente a los minerales, 100 gramos de Pitajayanos proporcionan: Calcio: 11 miligramos (mg): Fósforo: 26 mg; Hierro: 1.9 mg: los demás minerales se están determinando, pues se trata de una fruta muy poco estudiada.
+En lo referente a los minerales, 100 gramos de Pitajayanos proporcionan: Calcio: 11 mg: Fósforo: 26 mg; Hierro: 1.9 mg: los demás minerales se están determinando, pues se trata de una fruta muy poco estudiada.

@@ -12,6 +12,82 @@ gallery:
   - limonagrio.jpg
 createdAt: 2021-11-11T04:14:58.144Z
 updatedAt: 2021-11-11T04:14:58.152Z
+nutritionFacts:
+  - name: Calorías
+    value: "30"
+    unit: kcal
+  - name: Agua
+    value: "89"
+    unit: "%"
+  - name: Carbohidratos
+    value: "7"
+    unit: g
+  - name: Azúcares
+    value: "2.5"
+    unit: g
+  - name: Proteína
+    value: "1"
+    unit: g
+  - name: Fibra Soluble
+    value: "2.8"
+    unit: g
+  - name: Calcio
+    value: "61"
+    unit: mg
+  - name: Fósforo
+    value: "16"
+    unit: mg
+  - name: Hierro
+    value: "0.3"
+    unit: mg
+  - name: Potasio
+    value: "145"
+    unit: mg
+  - name: Magnesio
+    value: "12"
+    unit: mg
+  - name: Sodio
+    value: "3"
+    unit: mg
+  - name: Cobre
+    value: "0.042"
+    unit: µg
+  - name: Selenio
+    value: "1"
+    unit: µg
+  - name: Zinc
+    value: "100"
+    unit: µg
+  - name: Vitamina A
+    value: "2"
+    unit: µg
+  - name: Betacarotenos
+    value: "1"
+    unit: µg
+  - name: Vitamina C
+    value: "77"
+    unit: mg
+  - name: Vitamina E
+    value: "0.15"
+    unit: µg
+  - name: Tiamina B1
+    value: "50"
+    unit: µg
+  - name: Riboflavina B2
+    value: "40"
+    unit: µg
+  - name: Niacina B3
+    value: "200"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "25"
+    unit: µg
+  - name: Piridoxina B6
+    value: "110"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "10.3"
+    unit: µg
 ---
 El Limón agrio se llama Citrus limonumy pertenece a la Familia Taxonómica de las Rutaceae; la mayoría de los cultivares de limón en la actualidad, son hibridos por la cruza de Citrus medica con Citrus aurantifolia un árbol de 4 a 5 metros de altura. Es una especie originaria de la India, en donde se cultiva desde los orígenes de la agricultura, hace más de 8 mil años, traído por los españoles en el Siglo XVI; crece en los climas. templados y tropicales de la República Mexicana.
 
@@ -25,11 +101,11 @@ El Limón contienen poca proteína, con el 1% y de fibras solubles a base de pec
 
 <br/>
 
-La fruta en la dieta de los diabéticos, siempre debe de consumirse acompañada de proteínas y grasas insaturadas; así que recomendamos combinar los alimentos con agua de limón si acaso endulzada con poca miel de maguey; el sabor característico del limón agrio es debido a la presencia del 5% de ácido cítrico, el cual tiene un efecto suave como antibiótico natural y descongestionante y por los contenidos de Vitamina C 177 mg), es uno de los antioxidantes más recomendados para prevenir enfermedades respiratorias y las crónico degenerativas como el cáncer, los infartos y la diabetes.
+La fruta en la dieta de los diabéticos, siempre debe de consumirse acompañada de proteínas y grasas insaturadas; así que recomendamos combinar los alimentos con agua de limón si acaso endulzada con poca miel de maguey; el sabor característico del limón agrio es debido a la presencia del 5% de ácido cítrico, el cual tiene un efecto suave como antibiótico natural y descongestionante y por los contenidos de Vitamina C 77 mg, es uno de los antioxidantes más recomendados para prevenir enfermedades respiratorias y las crónico degenerativas como el cáncer, los infartos y la diabetes.
 
 <br/>
 
-100 gramos de Limón nos proporciona varios minerales; como el Calcio con 61 miligramos (mg); Fósforo 16 mg; Hierro 0.3 mg; Potasio 145 mg; Magnesio 12 mg; Sodio 3 mg: Cobre 0.042 microgramos (ug); Selenio 1 ug y Zinc 100 ug.
+100 gramos de Limón nos proporciona varios minerales; como el Calcio con 61 mg; Fósforo 16 mg; Hierro 0.3 mg; Potasio 145 mg; Magnesio 12 mg; Sodio 3 mg: Cobre 0.042 ug; Selenio 1 ug y Zinc 100 ug.
 
 <br/>
 

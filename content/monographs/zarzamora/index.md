@@ -11,6 +11,67 @@ gallery:
   - zarzamora_1.jpg
 createdAt: 2021-11-11T04:03:18.355Z
 updatedAt: 2021-11-11T04:03:18.362Z
+nutritionFacts:
+  - name: Calorías
+    value: "32"
+    unit: kcal
+  - name: Agua
+    value: "83"
+    unit: "%"
+  - name: Grasa
+    value: "0.6"
+    unit: g
+  - name: Proteína
+    value: "0.9"
+    unit: g
+  - name: Carbohidratos
+    value: "9"
+    unit: g
+  - name: Azúcares
+    value: "4"
+    unit: g
+  - name: Fibra Cruda
+    value: "5.5"
+    unit: g
+  - name: Vitamina A
+    value: "19"
+    unit: µg
+  - name: Tiamina B1
+    value: "30"
+    unit: µg
+  - name: Riboflavina B2
+    value: "40"
+    unit: µg
+  - name: Niacina B3
+    value: "40"
+    unit: µg
+  - name: Piridoxina B6
+    value: "60"
+    unit: µg
+  - name: Vitamina C
+    value: "21"
+    unit: mg
+  - name: Calcio
+    value: "32"
+    unit: mg
+  - name: Magnesio
+    value: "1"
+    unit: mg
+  - name: Fósforo
+    value: "21"
+    unit: mg
+  - name: Potasio
+    value: "210"
+    unit: mg
+  - name: Hierro
+    value: "0.5"
+    unit: mg
+  - name: Sodio
+    value: "0.5"
+    unit: mg
+  - name: Zinc
+    value: "270"
+    unit: µg
 ---
 La Zarzamora se llama Rubus fructicosus y pertenece a la Familia de las Rosaceae; se trata de una planta de origen Americano, de la cual se recolectan las frutas silvestres y cada vez hay más hectáreas para su cultivo ante la demanda de la industria de los alimentos.
 
@@ -20,7 +81,7 @@ Cien gramos de Zarzamora proporcionan 32 kilocalorías, pues el 83% de su peso e
 
 <br/>
 
-100 gramos de Zarzamora nos proporcionaVitamina A: 19 microgramos. lug): Vitaminas del complejo B: B1 Tiamina con 30 ug; B2 Riboflavina: 40 ug; B3 Niacina: 40 ug; B6 Piridoxina: 60 ug; Vitamina C: 21 mg. La Zarzamora como fuente de minerales, 100 gr nos provee de 32 mg de Calcio; Magnesio 1 mg. Fósforo 21 mg; Potasio 210 mg: Hierro 0.5 mg; Sodio 0.5 mg y Zinc 270 ug.
+100 gramos de Zarzamora nos proporciona Vitamina A: 19 ug: Vitaminas del complejo B: B1 Tiamina con 30 ug; B2 Riboflavina: 40 ug; B3 Niacina: 40 ug; B6 Piridoxina: 60 ug; Vitamina C: 21 mg. La Zarzamora como fuente de minerales, 100 gr nos provee de 32 mg de Calcio; Magnesio 1 mg. Fósforo 21 mg; Potasio 210 mg: Hierro 0.5 mg; Sodio 0.5 mg y Zinc 270 ug.
 
 <br/>
 

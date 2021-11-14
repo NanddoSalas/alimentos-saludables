@@ -12,6 +12,79 @@ gallery:
   - tejocote2.jpg
 createdAt: 2021-11-11T03:40:28.033Z
 updatedAt: 2021-11-11T03:40:28.039Z
+nutritionFacts:
+  - name: Calorías
+    value: "97"
+    unit: kcal
+  - name: Agua
+    value: "72"
+    unit: "%"
+  - name: Carbohidratos
+    value: "22"
+    unit: g
+  - name: Proteína
+    value: "0.8"
+    unit: g
+  - name: Grasa
+    value: "0.6"
+    unit: g
+  - name: Fibra Dietética
+    value: 10-27
+    unit: g
+  - name: Calcio
+    value: "111"
+    unit: mg
+  - name: Fósforo
+    value: "39"
+    unit: mg
+  - name: Hierro
+    value: "1.6"
+    unit: mg
+  - name: Potasio
+    value: "280"
+    unit: mg
+  - name: Magnesio
+    value: "66"
+    unit: mg
+  - name: Sodio
+    value: "0.7"
+    unit: mg
+  - name: Zinc
+    value: "50"
+    unit: µg
+  - name: Cobre
+    value: "0.08"
+    unit: µg
+  - name: Vitamina A
+    value: "211"
+    unit: µg
+  - name: Alfacarotenos
+    value: "6.7"
+    unit: µg
+  - name: Betacarotenos
+    value: "1.55"
+    unit: µg
+  - name: Tiamina B1
+    value: "40"
+    unit: µg
+  - name: Riboflavina B2
+    value: "60"
+    unit: µg
+  - name: Niacina B3
+    value: "400"
+    unit: µg
+  - name: Piridoxina B6
+    value: "100"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "2.8"
+    unit: µg
+  - name: Vitamina C
+    value: "46"
+    unit: mg
+  - name: Vitamina E
+    value: "0.08"
+    unit: µg
 ---
 El Tejocote se llama Crataegus mexicana y pertenece a la Familia Taxonómica de las Rosaceae, se consume principalmente en productos industriales por sus propiedades gelatinizante, emulsificante, solidificante y estabilizador en jugos, salsas, mayonesas, etc, por su gran cantidad de Pectinas, las cuales van de 10 a 27 gramos por ciento; es común en la dieta del mexicano como fruta fresca desde tiempos prehispánicos, pues crece como planta silvestre en varias regiones de México y se cultiva principalmente por su uso industrial;es muy común su consumo en forma de ponche caliente en el invierno con otras frutas; crece en los climas templados y fríos de la República Mexicana.
 
@@ -21,11 +94,11 @@ Es muy común su uso como portainjerto para la producción de árboles de Pera, 
 
 <br/>
 
-100 gramos de tejocote nos proporcionan 97 kilocalorias; el 72% de su peso es agua; el 22% de su peso son carbohidratos; el 0.8% es proteína; tiene muy poca grasa, con el 0.6%; fibra Dietética a base de pectinas. es de las más elevadas entre las frutas, pues va del 10 al 27%, y junto con las amilopectinas, sus enzimas y sobre todo las fibras mejoran la digestión porque nutren a la microflora intestinal y por lo tanto estimulan al sistema inmunológico.
+100 gramos de tejocote nos proporcionan 97 kilocalorias; el 72% de su peso es agua; el 22% de su peso son carbohidratos; el 0.8% es proteína; tiene muy poca grasa, con el 0.6%; fibra Dietética a base de pectinas es de las más elevadas entre las frutas, pues va del 10 al 27%, y junto con las amilopectinas, sus enzimas y sobre todo las fibras mejoran la digestión porque nutren a la microflora intestinal y por lo tanto estimulan al sistema inmunológico.
 
 <br/>
 
-100 gramos de Tejocote nos proporciona varios minerales, como el Calcio con 111 miligramos (mg); Fósforo 39 mg; Hierro 1.6 mg: Potasio 280 mg: Magnesio 66 mg; Sodio 0.7 mg: Zinc 50 microgramos (ug); cobre 0.08 ug.
+100 gramos de Tejocote nos proporciona varios minerales, como el Calcio con 111 mg; Fósforo 39 mg; Hierro 1.6 mg: Potasio 280 mg: Magnesio 66 mg; Sodio 0.7 mg: Zinc 50 ug; cobre 0.08 ug.
 
 <br/>
 

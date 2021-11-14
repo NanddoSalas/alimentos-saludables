@@ -10,6 +10,52 @@ gallery:
   - zapote-blanco.jpg
 createdAt: 2021-11-11T03:56:05.760Z
 updatedAt: 2021-11-11T03:56:05.769Z
+nutritionFacts:
+  - name: Calorías
+    value: "157"
+    unit: kcal
+  - name: Agua
+    value: "49"
+    unit: "%"
+  - name: Carbohidratos
+    value: "36"
+    unit: g
+  - name: Fibra Cruda
+    value: "1"
+    unit: g
+  - name: Proteína
+    value: "1.3"
+    unit: g
+  - name: Grasa
+    value: "0.8"
+    unit: g
+  - name: Vitamina A
+    value: "12.5"
+    unit: µg
+  - name: Tiamina B1
+    value: "180"
+    unit: µg
+  - name: Niacina B3
+    value: "3300"
+    unit: µg
+  - name: Vitamina C
+    value: "40"
+    unit: mg
+  - name: Calcio
+    value: "36"
+    unit: mg
+  - name: Fósforo
+    value: "36"
+    unit: mg
+  - name: Potasio
+    value: "18"
+    unit: mg
+  - name: Hierro
+    value: "0.7"
+    unit: mg
+  - name: Sodio
+    value: "135"
+    unit: mg
 ---
 El Zapote blanco se llama Casimiroa edulis y pertenece a la Familia Taxonómica de las Rutaceae; se trata de un árbol de unos 10 a 20 metros de altura; es originario de México, de las regiones templadas como el Valle de México y las zonas cálidas del País; crece entre los 500 y los 2600 metros sobre el nivel del mar.
 
@@ -23,8 +69,8 @@ Cien gramos de la pulpa del Zapote blanco proporcionan 157 kilocalorías; el 49%
 
 <br/>
 
-El Zapote blanco, como todas las frutas, tiene una gran cantidad de antioxidantes, además de vitaminas, pues por cada 100 gramos de pulpa, nos proporcionan Vitamina A: 12.5 microgramos lug]; Vitaminas del complejo B: B1 Tiamina con 180 ug; B3 Niacina: 3300 ug: Vitamina C: 40 mg.
+El Zapote blanco, como todas las frutas, tiene una gran cantidad de antioxidantes, además de vitaminas, pues por cada 100 gramos de pulpa, nos proporcionan Vitamina A: 12.5 ug; Vitaminas del complejo B: B1 Tiamina con 180 ug; B3 Niacina: 3300 ug: Vitamina C: 40 mg.
 
 <br/>
 
-También es fuente de minerales: Calcio 36 mg; Fósforo 36 mg: Potasio 18 mg; Hierro 0.7 mg; Sodio 135 mg. Los antioxidantes; además de prevenir cáncer, previenen la diabetes y las enfermedades autoinmunes como la artritis, osteoartritis, el lupus, etc.; además, reducen la oxidación del colesterol, lo cual se ha medido a través de la reducción de la homocisteína y por este mecanismo se previenen los infartos.
+También es fuente de minerales: Calcio 36 mg; Fósforo 36 mg: Potasio 18 mg; Hierro 0.7 mg; Sodio 135 mg. Los antioxidantes; además de prevenir cáncer, previenen la diabetes y las enfermedades autoinmunes como la artritis, osteoartritis, el lupus, etc, además, reducen la oxidación del colesterol, lo cual se ha medido a través de la reducción de la homocisteína y por este mecanismo se previenen los infartos.
