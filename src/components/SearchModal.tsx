@@ -64,6 +64,10 @@ const SearchModal: React.FC<SearchModalProps> = ({
     setResult(res);
   }, [query]);
 
+  useEffect(() => {
+    if (!isOpen) setQuery('');
+  }, [isOpen]);
+
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
