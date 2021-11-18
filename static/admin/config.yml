@@ -84,4 +84,4 @@ collections:
           - label: 'Unit'
             name: 'unit'
             widget: 'select'
-            options: ['g', 'mg', 'µg', 'kcal', '%']
+            options: ['g', 'mg', 'µg', 'kcal', '%', 'u.i.']
