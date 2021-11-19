@@ -11,6 +11,76 @@ gallery:
   - jitomate4.jpg
 createdAt: 2021-11-18T01:17:20.066Z
 updatedAt: 2021-11-18T01:17:20.076Z
+nutritionFacts:
+  - name: Calorías
+    value: "11"
+    unit: kcal
+  - name: Agua
+    value: "96"
+    unit: "%"
+  - name: Grasa
+    value: "0.1"
+    unit: g
+  - name: Proteína
+    value: "0.6"
+    unit: g
+  - name: Carbohidratos
+    value: "2.4"
+    unit: g
+  - name: Fibra Cruda
+    value: "1.2"
+    unit: g
+  - name: Vitamina A
+    value: "833"
+    unit: u.i.
+  - name: Tiamina B1
+    value: "110"
+    unit: µg
+  - name: Riboflavina B2
+    value: "90"
+    unit: µg
+  - name: Niacina B3
+    value: "680"
+    unit: µg
+  - name: Piridoxina B6
+    value: "100"
+    unit: µg
+  - name: Vitamina C
+    value: "19"
+    unit: mg
+  - name: Vitamina E
+    value: "540"
+    unit: µg
+  - name: Vitamina K
+    value: "7.9"
+    unit: µg
+  - name: Betacarotenos
+    value: "5800"
+    unit: µg
+  - name: Calcio
+    value: "12"
+    unit: mg
+  - name: Fósforo
+    value: "31"
+    unit: mg
+  - name: Hierro
+    value: "0.5"
+    unit: mg
+  - name: Magnesio
+    value: "11"
+    unit: mg
+  - name: Manganeso
+    value: "114"
+    unit: mg
+  - name: Potasio
+    value: "237"
+    unit: mg
+  - name: Sodio
+    value: "5"
+    unit: mg
+  - name: Zinc
+    value: "16"
+    unit: µg
 ---
 El Jitomate, Xictómatl en Náhuatl, se llama Lycopersicum esculentum y pertenece a la Familia de las Solanaceae; se trata de una hierba anual de origen Mexicano; es decir, aunque el día de hoy los ancestros. crecen silvestres en las zonas tropicales de nuestro Pais, su cultivo y domesticación se remonta a los origenes de la agricultura mexicana hace unos 10 mil años y actualmente se cultiva prácticamente en todo el mundo, pues es el ingrediente más común de miles de platillos de la gastronomia planetaria.
 
@@ -44,8 +114,8 @@ También por el volumen consumido, es una de las fuentes de minerales más impor
 
 <br/>
 
-El color rojo está integrado por una gran cantidad de antioxidantes, como carotenoides y flavonoides, a través de los cuales se eliminan los. radicales libres que dañan el material genético de cada célula, el ADN.
+El color rojo está integrado por una gran cantidad de antioxidantes, como carotenoides y flavonoides, a través de los cuales se eliminan los radicales libres que dañan el material genético de cada célula, el ADN.
 
 <br/>
 
-Comer Jitomate previene el envejecimiento prematuro, los infartos y el cáncer, por la gran cantidad de antioxidantes; como los Beta-carotenos, la Luteina y los 62000-3000 microgramos (ug) de Licopeno por cada 100 gr; los cuales representan el 83% de los carotenoides que contiene, ya estudiados para prevenir y tratar cáncer de próstata.
+Comer Jitomate previene el envejecimiento prematuro, los infartos y el cáncer, por la gran cantidad de antioxidantes; como los Beta-carotenos, la Luteina y los 62000-3000 ug de Licopeno por cada 100 gr; los cuales representan el 83% de los carotenoides que contiene, ya estudiados para prevenir y tratar cáncer de próstata.

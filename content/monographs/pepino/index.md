@@ -9,20 +9,84 @@ gallery:
   - pepino.jpeg
 createdAt: 2021-11-18T01:30:29.874Z
 updatedAt: 2021-11-18T01:30:29.883Z
+nutritionFacts:
+  - name: Calorías
+    value: "12"
+    unit: kcal
+  - name: Grasa
+    value: "0.2"
+    unit: g
+  - name: Proteína
+    value: "0.7"
+    unit: g
+  - name: Carbohidratos
+    value: "2.4"
+    unit: g
+  - name: Fibra
+    value: "0.87"
+    unit: g
+  - name: Vitamina A
+    value: "105"
+    unit: u.i.
+  - name: Tiamina B1
+    value: "30"
+    unit: µg
+  - name: Riboflavina B2
+    value: "40"
+    unit: µg
+  - name: Niacina B3
+    value: "400"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "260"
+    unit: µg
+  - name: Vitamina C
+    value: "93"
+    unit: mg
+  - name: Vitamina K
+    value: "16.4"
+    unit: µg
+  - name: Calcio
+    value: "36"
+    unit: mg
+  - name: Fósforo
+    value: "32"
+    unit: mg
+  - name: Hierro
+    value: "2.6"
+    unit: mg
+  - name: Cobre
+    value: "1"
+    unit: mg
+  - name: Sodio
+    value: "2"
+    unit: mg
+  - name: Potasio
+    value: "147"
+    unit: mg
+  - name: Magnesio
+    value: "13"
+    unit: mg
+  - name: Manganeso
+    value: "0.08"
+    unit: mg
+  - name: Zinc
+    value: "3300"
+    unit: µg
 ---
 El pepino se llama Cucumis sativus y lo proponemos porque es una de las hortalizas con menos calorías, pues nos proporciona sólo 12 kcal por cada 100 gramos (la otra es el jitomate con 11); pertenece a las Cucurbitaceae, la Familia de las calabazas y su contenido es principalmente agua con el 97% de su peso. El cultivo es originario de la India y rápidamente formó parte de la dieta de varios pueblos por toda Asia y el Mediterráneo; los españoles lo trajeron a México en el siglo XVI; actualmente se cultivan en todo el mundo más de 40 variedades genéticas.
 
 <br/>
 
-100 gramos nos proporcionan sólo 12 kilocalorias; así que una ensalada de un kito de pepino nos proporcionaría sólo 120 kcal; así que constituye una buena estrategia para las personas que consumen grandes volúmenes de comida y que desean bajar de peso sin hambre.
+100 gramos nos proporcionan sólo 12 kilocalorias; así que una ensalada de un kilo de pepino nos proporcionaría sólo 120 kcal; así que constituye una buena estrategia para las personas que consumen grandes volúmenes de comida y que desean bajar de peso sin hambre.
 
 <br/>
 
-En cien gramos de Pepino hay 0.2 gr de Grasa; 0.7 gr de Proteina; Carbohidratos 2.4 gry 0.87 gr de Fibra; lo cual explica las pocas calorías que proporciona.
+En cien gramos de Pepino hay 0.2 gr de Grasa; 0.7 gr de Proteina; Carbohidratos 2.4 gr y 0.87 gr de Fibra; lo cual explica las pocas calorías que proporciona.
 
 <br/>
 
-Es un buen multivitamínico: Vit A: 105 u.i.; Vitaminas del complejo B: Tiamina B1: 30 microgramos (ugl; Riboflavina B2: 40 ug; Niacina B3: 400 ug; Ácido Pantoténico B5: 260 ug; Vit C: 93 mg; Vit K: 16.4 ug.
+Es un buen multivitamínico: Vit A: 105 u.i.; Vitaminas del complejo B: Tiamina B1: 30 ug; Riboflavina B2: 40 ug; Niacina B3: 400 ug; Ácido Pantoténico B5: 260 ug; Vitamina C: 93 mg; Vitamina K: 16.4 ug.
 
 <br/>
 

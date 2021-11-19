@@ -9,6 +9,82 @@ gallery:
   - alfalfa.jpg
 createdAt: 2021-11-18T01:09:14.459Z
 updatedAt: 2021-11-18T01:09:14.467Z
+nutritionFacts:
+  - name: Calorías
+    value: "26"
+    unit: kcal
+  - name: Grasa
+    value: "0.7"
+    unit: g
+  - name: Proteína
+    value: "6"
+    unit: g
+  - name: Carbohidratos
+    value: "5"
+    unit: g
+  - name: Fibra Cruda
+    value: "4.5"
+    unit: g
+  - name: Fibra Soluble
+    value: "2"
+    unit: g
+  - name: Vitamina A
+    value: "16"
+    unit: µg
+  - name: Betacarotenos
+    value: "740"
+    unit: µg
+  - name: Tiamina B1
+    value: "130"
+    unit: µg
+  - name: Riboflavina B2
+    value: "140"
+    unit: µg
+  - name: Niacina B3
+    value: "480"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "560"
+    unit: µg
+  - name: Piridoxina B6
+    value: "100"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "360"
+    unit: g
+  - name: Vitamina E
+    value: "20"
+    unit: µg
+  - name: Vitamina K
+    value: "305"
+    unit: µg
+  - name: Calcio
+    value: "32"
+    unit: mg
+  - name: Fósforo
+    value: "70"
+    unit: mg
+  - name: Potasio
+    value: "79"
+    unit: mg
+  - name: Hierro
+    value: "5.3"
+    unit: mg
+  - name: Sodio
+    value: "15"
+    unit: mg
+  - name: Magnesio
+    value: "27"
+    unit: mg
+  - name: Manganeso
+    value: "5"
+    unit: mg
+  - name: Zinc
+    value: "1"
+    unit: mg
+  - name: Selenio
+    value: "0.6"
+    unit: mg
 ---
 La alfalfa se llama Medicago sativa y pertenece a la Familia de las Leguminosae o Fabaceae: es un cultivo milenario que se originó en la antigua Persia hace más de 8 mil años y de ahí pasó a toda Asia, Europa y norte de África; la alfalfa era y es usada tanto en la alimentación humana como para los animales, principalmente los caballos. Los españoles la trajeron a México en el siglo XVI.
 
@@ -22,7 +98,7 @@ En promedio, 100 gramos de brotes tiernos a germinados de alfalfa nos proporcion
 
 <br/>
 
-Vitaminas: A: 16 microgramos lug); Beta-carotenos: 740 ug: Vitaminas del complejo B, B1 Tiamina: 130 ug; B2 Riboflavina: 140 ug; B3 Niacina: 480 ug; B5 Ácido Pantoténico: 560 ug; B6 Piridoxina: 100ug: B9 Ácido Fó lico: 360 ug; Vitamina C: 130 mg; Vitamina E: 20 ug: Vitamina K: 305 ug.
+Vitaminas: A: 16 ug; Beta-carotenos: 740 ug: Vitaminas del complejo B, B1 Tiamina: 130 ug; B2 Riboflavina: 140 ug; B3 Niacina: 480 ug; B5 Ácido Pantoténico: 560 ug; B6 Piridoxina: 100 ug: B9 Ácido Fólico: 360 ug; Vitamina C: 130 mg; Vitamina E: 20 ug: Vitamina K: 305 ug.
 
 <br/>
 

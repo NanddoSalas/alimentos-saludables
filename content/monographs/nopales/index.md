@@ -11,6 +11,67 @@ gallery:
   - nopales.jpg
 createdAt: 2021-11-18T01:22:49.784Z
 updatedAt: 2021-11-18T01:22:49.793Z
+nutritionFacts:
+  - name: Calorías
+    value: "26"
+    unit: kcal
+  - name: Agua
+    value: "90"
+    unit: "%"
+  - name: Grasa
+    value: "0.3"
+    unit: g
+  - name: Proteína
+    value: "0.7"
+    unit: g
+  - name: Carbohidratos
+    value: "5.6"
+    unit: g
+  - name: Fibra Soluble
+    value: "3.6"
+    unit: g
+  - name: Vitamina A
+    value: "130"
+    unit: µg
+  - name: Betacarotenos
+    value: "3.9"
+    unit: µg
+  - name: Tiamina B1
+    value: "30"
+    unit: µg
+  - name: Riboflavina B2
+    value: "100"
+    unit: µg
+  - name: Niacina B3
+    value: "500"
+    unit: µg
+  - name: Luteína
+    value: "5.5"
+    unit: µg
+  - name: Vitamina C
+    value: "8"
+    unit: mg
+  - name: Calcio
+    value: "87"
+    unit: mg
+  - name: Fósforo
+    value: "24"
+    unit: mg
+  - name: Hierro
+    value: "0.3"
+    unit: mg
+  - name: Magnesio
+    value: "85"
+    unit: mg
+  - name: Potasio
+    value: "313"
+    unit: mg
+  - name: Sodio
+    value: "1"
+    unit: mg
+  - name: Zinc
+    value: "0.14"
+    unit: mg
 ---
 Los Nopales de llaman Opuntia ficus-indica y pertenece a la Familia de las Cactaceae, es un cultivo originario de México; de las regiones de clima árido, semi árido y templado; se cultivan desde los inicios de la agricultura hace unos 10 mil años; y desde entonces, los pueblos originarios siembran varias especies y variedades.
 
@@ -28,7 +89,7 @@ Los Nopales y todas las verduras verdes son los alimentos ideales para las perso
 
 <br/>
 
-Los Nopales son un buen multivitamínico, pues 100 gramos nos aportan: Vitamina A: 130 microgramos lug): Beta carotenos: 3.9 ug; Vitaminas del complejo B; Tiamina B1: 30 ug: Riboflavina B2: 100 ug: Niacina B3: 500 ug: Luteína: 5.5 ug y Vitamina C: 8 mg.
+Los Nopales son un buen multivitamínico, pues 100 gramos nos aportan: Vitamina A: 130 ug: Beta carotenos: 3.9 ug; Vitaminas del complejo B; Tiamina B1: 30 ug: Riboflavina B2: 100 ug: Niacina B3: 500 ug: Luteína: 5.5 ug y Vitamina C: 8 mg.
 
 <br/>
 

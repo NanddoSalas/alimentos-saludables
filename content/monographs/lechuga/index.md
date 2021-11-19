@@ -9,6 +9,88 @@ gallery:
   - lechuga.jpg
 createdAt: 2021-11-18T01:20:12.291Z
 updatedAt: 2021-11-18T01:20:12.303Z
+nutritionFacts:
+  - name: Agua
+    value: "97"
+    unit: "%"
+  - name: Calcio
+    value: "13"
+    unit: kcal
+  - name: Grasa
+    value: "0.2"
+    unit: g
+  - name: Proteína
+    value: "0.9"
+    unit: g
+  - name: Carbohidratos
+    value: "2.2"
+    unit: g
+  - name: Azúcares
+    value: "0.8"
+    unit: g
+  - name: Fibra Soluble
+    value: "1.3"
+    unit: g
+  - name: Vitamina A
+    value: "970"
+    unit: u.i.
+  - name: Betacarotenos
+    value: "1987"
+    unit: µg
+  - name: Tiamina B1
+    value: "110"
+    unit: µg
+  - name: Riboflavina B2
+    value: "60"
+    unit: µg
+  - name: Niacina B3
+    value: "400"
+    unit: µg
+  - name: Ácido Pantoténico B5
+    value: "150"
+    unit: µg
+  - name: Piridoxina B6
+    value: "820"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "215"
+    unit: µg
+  - name: Vitamina C
+    value: 9/133
+    unit: mg
+  - name: Vitamina E
+    value: "180"
+    unit: µg
+  - name: Vitamina K
+    value: "102"
+    unit: µg
+  - name: Calcio
+    value: 36/136
+    unit: mg
+  - name: Fósforo
+    value: "43"
+    unit: mg
+  - name: Hierro
+    value: 1.2/2.5
+    unit: mg
+  - name: Potasio
+    value: "238"
+    unit: mg
+  - name: Magnesio
+    value: "13"
+    unit: mg
+  - name: Manganeso
+    value: "0.179"
+    unit: mg
+  - name: Selenio
+    value: "20"
+    unit: µg
+  - name: Sodio
+    value: "5"
+    unit: mg
+  - name: Zinc
+    value: "200"
+    unit: µg
 ---
 La Lechuga se llama Lactuca sativa y pertenece a la Familia de las Asteraceae o Compositae; es un cultivo originario del Mediterráneo y Asia Central, crece como una hierba anual en climas templados; en la actualidad, se produce principalmente en invernadero, pues es la verdura que más se usa en las ensaladas a nivel mundial.
 
@@ -22,7 +104,7 @@ La Lechuga se cultiva desde los inicios de la agricultura hace unos 10 mil años
 
 <br/>
 
-La Lechuga, por las cantidades que se pueden consumir, es un buen multivitamínico, pues 100 gramos nos aportan: Vitamina A: 970 unidades. internacionales (u.i.); Beta Carotenos: 1987 microgramos (ug); Vitaminas del complejo B; Tiamina B1: 110 ug; Riboflavina B2: 60 ug: Niacina B3: 400 ug; Ácido Pantoténico B5: 150 ug; Piridoxina B6: 820 ug: Ácido Fóli co B9: 215 ug; Vitamina C. 9 mg en las hojas interiores, y 133 mg en las hojas exteriores, las de color oscuro; Vitamina E: 180 ug: Vitamina K: 102 microgramos (ug).
+La Lechuga, por las cantidades que se pueden consumir, es un buen multivitamínico, pues 100 gramos nos aportan: Vitamina A: 970 unidades. internacionales (u.i.); Beta Carotenos: 1987 ug; Vitaminas del complejo B; Tiamina B1: 110 ug; Riboflavina B2: 60 ug: Niacina B3: 400 ug; Ácido Pantoténico B5: 150 ug; Piridoxina B6: 820 ug: Ácido Fóli co B9: 215 ug; Vitamina C 9 mg en las hojas interiores, y 133 mg en las hojas exteriores, las de color oscuro; Vitamina E: 180 ug: Vitamina K: 102 ug.
 
 <br/>
 

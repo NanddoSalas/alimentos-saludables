@@ -9,6 +9,64 @@ gallery:
   - miltomate.jpeg
 createdAt: 2021-11-18T01:47:49.730Z
 updatedAt: 2021-11-18T01:47:49.741Z
+nutritionFacts:
+  - name: Calorías
+    value: "30"
+    unit: kcal
+  - name: Agua
+    value: "91"
+    unit: "%"
+  - name: Carbohidratos
+    value: "6"
+    unit: g
+  - name: Proteína
+    value: "0.1"
+    unit: g
+  - name: Fibra Soluble
+    value: "1.3"
+    unit: g
+  - name: Calcio
+    value: "18"
+    unit: mg
+  - name: Fósforo
+    value: "38"
+    unit: mg
+  - name: Hierro
+    value: "0.5"
+    unit: mg
+  - name: Potasio
+    value: "204"
+    unit: mg
+  - name: Magnesio
+    value: "10"
+    unit: mg
+  - name: Sodio
+    value: "98"
+    unit: mg
+  - name: Zinc
+    value: "70"
+    unit: µg
+  - name: Vitamina A
+    value: "31"
+    unit: µg
+  - name: Vitamina C
+    value: "24"
+    unit: mg
+  - name: Tiamina B1
+    value: "80"
+    unit: µg
+  - name: Riboflavina B2
+    value: "40"
+    unit: µg
+  - name: Niacina B3
+    value: "1700"
+    unit: µg
+  - name: Piridoxina B6
+    value: "60"
+    unit: µg
+  - name: Ácido Fólico B9
+    value: "7.4"
+    unit: µg
 ---
 EL Tomate verde o Tomate de cáscara se llama Physalis ixocarpa y pertenece a la Familia Taxonómica de las Solanaceae; es un cultivo originario de México, el cual se produce en la milpa desde los orígenes de la agricultura, hace unos 10 mil años; se trata de una hierba sensible a las heladas.
 
@@ -22,11 +80,11 @@ El Tomate de cáscara, conocido también como tomate de agua contiene muy poca p
 
 <br/>
 
-100 gramos de Tomate verde nos proporciona varios minerales; como el Calcio con 18 miligramos (mg); Fósforo 38 mg; Hierro 0.5 mg: Potasio 204 mg; Magnesio 10 mg: Sodio 98 mg y Zinc 70 microgramos (ug).
+100 gramos de Tomate verde nos proporciona varios minerales; como el Calcio con 18 mg; Fósforo 38 mg; Hierro 0.5 mg: Potasio 204 mg; Magnesio 10 mg: Sodio 98 mg y Zinc 70 ug.
 
 <br/>
 
-También nos proporciona varias Vitaminas: Vitamina A: 31 ug; Vitamina C: 24 mg, y las Vitaminas del complejo B: Tiamina B1: 80 microgramos lug); Riboflavina B2: 40 ug: Niacina B3: 1700 ug; Piridoxina B6: 60 ug y Ácido Fólico B9: 7.4 ug.
+También nos proporciona varias Vitaminas: Vitamina A: 31 ug; Vitamina C: 24 mg, y las Vitaminas del complejo B: Tiamina B1: 80 ug; Riboflavina B2: 40 ug: Niacina B3: 1700 ug; Piridoxina B6: 60 ug y Ácido Fólico B9: 7.4 ug.
 
 <br/>
 
