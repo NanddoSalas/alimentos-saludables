@@ -226,6 +226,20 @@ const Header: React.FC<HeroProps> = ({ bottom }) => {
                 </PopoverContent>
               </Popover>
 
+              <Link
+                fontSize="md"
+                fontWeight={600}
+                color="gray.200"
+                _hover={{
+                  textDecoration: 'none',
+                  color: 'white',
+                }}
+                as={GatsbyLink}
+                to="/acerca-de"
+              >
+                Acerca de
+              </Link>
+
               <Button
                 color="gray.300"
                 leftIcon={<SearchIcon />}
@@ -283,6 +297,8 @@ const Header: React.FC<HeroProps> = ({ bottom }) => {
                   </Stack>
                 </Collapse>
               </Stack>
+
+              <SubNav label="Acerca de" href="/acerca-de" />
             </Stack>
           </Collapse>
         </Container>
