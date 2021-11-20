@@ -6,6 +6,7 @@ import {
   Text,
   VisuallyHidden,
 } from '@chakra-ui/react';
+import { Link as GatsbyLink } from 'gatsby';
 import React, { ReactNode } from 'react';
 import { FaGithub, FaYoutube } from 'react-icons/fa';
 
@@ -65,8 +66,12 @@ const Footer = () => (
     >
       <Logo />
       <Stack direction="row" spacing={6}>
-        <Link href="/acerca-de">Acerca de</Link>
-        <Link href="/contacto">Contacto</Link>
+        <Link as={GatsbyLink} to="/">
+          Inicio
+        </Link>
+        <Link as={GatsbyLink} to="/acerca-de">
+          Acerca de
+        </Link>
       </Stack>
     </Container>
 
