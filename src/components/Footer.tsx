@@ -8,7 +8,7 @@ import {
 } from '@chakra-ui/react';
 import { Link as GatsbyLink } from 'gatsby';
 import React, { ReactNode } from 'react';
-import { FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Logo = () => (
   <svg height={32} viewBox="0 0 120 28" xmlns="http://www.w3.org/2000/svg">
@@ -85,7 +85,12 @@ const Footer = () => (
         justify={{ base: 'center', sm: 'space-between' }}
         align={{ base: 'center', sm: 'center' }}
       >
-        <Text>Made with 💚 by NanddoSalas.</Text>
+        <Text>
+          {'Made with 💚 by '}
+          <Link href="https://nanddosalas.com" color="green.400" isExternal>
+            NanddoSalas
+          </Link>
+        </Text>
 
         <Stack direction="row" spacing={6}>
           <SocialButton
@@ -93,6 +98,13 @@ const Footer = () => (
             href="https://www.youtube.com/watch?v=YcGy6VgYnx0"
           >
             <FaYoutube />
+          </SocialButton>
+
+          <SocialButton
+            label="Twitter"
+            href="https://twitter.com/HerbolariaErick"
+          >
+            <FaTwitter />
           </SocialButton>
 
           <SocialButton
