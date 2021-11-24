@@ -31,7 +31,10 @@ const SearchModal: React.FC<SearchModalProps> = ({
   const [query, setQuery] = useState('');
   const [result, setResult] = useState<Fuse.FuseResult<MonographIndex>[]>([]);
 
-  const fuse = new Fuse<MonographIndex>(monographsIndex, { keys: ['title'] });
+  const fuse = new Fuse<MonographIndex>(monographsIndex, {
+    keys: ['title'],
+    includeScore: true,
+  });
 
   const handleKeyDown: KeyboardEventHandler<HTMLInputElement> = (event) => {
     const { code } = event;
@@ -106,16 +109,18 @@ const SearchModal: React.FC<SearchModalProps> = ({
                 borderTopStyle="solid"
                 pt={2}
               >
-                {result.map(({ item, refIndex }, index) => (
-                  <SearchModalItem
-                    key={refIndex}
-                    title={item.title}
-                    category={item.category}
-                    isSelected={index === selectedIndex}
-                    href={item.href}
-                    onHover={() => setSelectedIndex(index)}
-                  />
-                ))}
+                {result
+                  .filter(({ score }) => score! < 0.5)
+                  .map(({ item, refIndex }, index) => (
+                    <SearchModalItem
+                      key={refIndex}
+                      title={item.title}
+                      category={item.category}
+                      isSelected={index === selectedIndex}
+                      href={item.href}
+                      onHover={() => setSelectedIndex(index)}
+                    />
+                  ))}
               </UnorderedList>
             </Box>
           )}
