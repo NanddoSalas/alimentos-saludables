@@ -115,11 +115,18 @@ const Slider: React.FC<SliderProps> = ({ images, imagesAlt }) => {
 
       <Modal isOpen={isOpen} onClose={onClose} isCentered>
         <ModalOverlay />
-        <ModalContent maxW="container.lg">
+        <ModalContent
+          maxW="75vw"
+          maxH="75vh"
+          w={images[imageIndex]?.width || 0}
+          // h={images[imageIndex]?.height || 0}
+        >
           <Image
             borderRadius="xl"
             as={GatsbyImage}
             image={images[imageIndex]}
+            // w={images[imageIndex]?.width || 0}
+            // h={images[imageIndex]?.height || 0}
           />
         </ModalContent>
       </Modal>
