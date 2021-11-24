@@ -27,6 +27,7 @@ import React from 'react';
 import { HeaderDataQuery } from '../../graphql-types';
 import { MonographIndex } from '../types';
 import { createPath } from '../utils';
+import Logo from './Logo';
 import SearchModal from './SearchModal';
 
 interface SubNavProps {
@@ -162,9 +163,7 @@ const Header: React.FC<HeroProps> = ({ bottom }) => {
               d={{ base: 'flex', md: 'none' }}
             />
 
-            <Text fontFamily="heading" color="white">
-              Logo
-            </Text>
+            <Logo />
 
             <IconButton
               onClick={onOpenSearch}
