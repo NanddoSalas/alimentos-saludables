@@ -68,11 +68,11 @@ const AboutPage = () => (
                 as="h1"
                 lineHeight={1}
                 fontWeight={700}
-                fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}
-                textAlign={{ base: 'center', md: 'left' }}
+                fontSize={{ base: '3xl', md: '4xl' }}
+                textAlign="center"
               >
                 <Text as="span" position="relative" color="whiteAlpha.900">
-                  AlimentoSaludables
+                  Alimentos Saludables
                 </Text>
               </Heading>
 

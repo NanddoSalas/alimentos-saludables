@@ -4,9 +4,9 @@ import React from 'react';
 
 const Logo = () => (
   <HStack d="flex" justify="center" align="center" spacing={2}>
-    <StaticImage src="../images/avocado.png" alt="Icono de Aguacate" />
+    <StaticImage src="../images/broccoli.png" alt="Icono de Aguacate" />
     <Text fontWeight={700} fontSize="xl">
-      AlimentoSaludables
+      Alimentos Saludables
     </Text>
   </HStack>
 );

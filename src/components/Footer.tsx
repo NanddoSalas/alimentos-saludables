@@ -73,7 +73,7 @@ const Footer = () => (
         align={{ base: 'center', sm: 'center' }}
       >
         <Text>
-          {'Made with 💚 by '}
+          {'Made by '}
           <Link href="https://nanddosalas.com" color="green.400" isExternal>
             NanddoSalas
           </Link>
